@@ -1,0 +1,45 @@
+###############################################################################
+#
+#  MIME media types and the extensions that represent them.
+#
+#  The format of this file is a media type on the left and zero or more
+#  filename extensions on the right.  Programs using this file will map
+#  files ending with those extensions to the associated type.
+# ............
+#  Users can add their own types if they wish by creating a ".mime.types"
+#  file in their home directory.  Definitions included there will take
+#  precedence over those listed ... at /etc/mime.types.
+#
+#  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+#  OBS att denna definitionsfil ~/.mime-types (liksom /etc/mime.types) 
+#  torde konkurrera med suffix-definitioner i flera andra filer, exempelvis:
+#
+#   usr/share/applications/defaults.list  		[innehåller bara Google-apps?]
+#   usr/share/applications/mate-mimeapps.list	(~/.local/share/applications/mate-mimeapps.list)
+#												(~/.config/mimeapps.list)
+#												(~/.local/share/applications/mimeapps.list)
+#   usr/share/applications/mimeinfo.cache	    (~/.local/share/applications/mimeinfo.cache) = [default to geany.desktop]
+#
+#   usr/share/mate/applications/defaults.list	(hur kan vi förekomma denna fil?)
+#
+#  	usr/share/mime/application/defaults.list 	(~/.local/share/mime/application/defaults.list)
+#  	usr/share/mime/application/*.xml 			(~/.local/share/mime/application/*.xml)
+#	usr/share/mime/text/*.xml					(~/.local/share/mime/text/.xml)
+#  	usr/share/mime/globs  						(~/.local/share/mime/globs/)	skrivs över av update-mime-database
+#  	usr/share/mime/globs2  						(~/.local/share/mime/globs2)	skrivs över av update-mime-database
+#	
+#
+###############################################################################
+
+
+
+text/gcode							gcode gco gc nc ngc cnc
+text/x-gcode						gcode gco gc nc ngc cnc
+text/x-nocigar						nocigar
+
+application/x-netcdf        		cdf
+
+## Possibly not needed anymore?:
+application/x-neo-geo-pocket-rom		oxo
+application/x-neo-geo-pocket-color-rom	oxo
