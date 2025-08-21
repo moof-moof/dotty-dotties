@@ -1,0 +1,210 @@
+{
+    // Main settings.json file  ( ~/.config/Code/User/settings.json )
+    // ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
+// EDITOR
+    "editor.suggestSelection": "first",
+    "window.zoomLevel": 1.0,
+    "window.zoomPerWindow": true,
+    "editor.mouseWheelZoom":true,
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.minimap.size": "proportional",
+    "editor.roundedSelection": true, 
+    "editor.parameterHints.enabled": true,
+    "editor.hover.enabled": true,
+    "editor.hover.sticky": true,
+    "editor.lineHeight": 1.2 ,
+ 
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#72B872"
+        },
+        "strings": "#4f0b83",
+        "numbers": "#ff0000",
+        "functions": { 
+            "foreground": "#cf2a00",
+            "fontStyle": ""
+        },
+        "types": {
+            "foreground": "#17A1A5",
+            "fontStyle": "bold"
+	    },
+        "variables": {
+            "foreground": "#cf2a00",
+            "fontStyle": "bold"
+	    },
+        
+        "textMateRules": []
+    },
+    "workbench.iconTheme": "vscode-icons-mac",
+    "workbench.colorTheme": "NucNucNuc",
+    "workbench.preferredLightColorTheme":"Bluloco Light Italic",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.startupEditor": "none",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.settings.applyToAllProfiles": [
+        "chat.editor.lineHeight"
+    ],
+    "workbench.colorCustomizations": {
+    
+        "terminal.background":"#2C3E50",
+        "terminal.foreground":"#E0E0E0",
+        "terminalCursor.background":"#E0E0E0",
+        "terminalCursor.foreground":"#E0E0E0",
+        "terminal.ansiBlack":"#2C3E50",
+        "terminal.ansiBlue":"#3498DB",
+        "terminal.ansiBrightBlack":"#95A5A6",
+        "terminal.ansiBrightBlue":"#3498DB",
+        "terminal.ansiBrightCyan":"#1ABC9C",
+        "terminal.ansiBrightGreen":"#2ECC71",
+        "terminal.ansiBrightMagenta":"#9B59B6",
+        "terminal.ansiBrightRed":"#E74C3C",
+        "terminal.ansiBrightWhite":"#ECF0F1",
+        "terminal.ansiBrightYellow":"#F1C40F",
+        "terminal.ansiCyan":"#1ABC9C",
+        "terminal.ansiGreen":"#2ECC71",
+        "terminal.ansiMagenta":"#9B59B6",
+        "terminal.ansiRed":"#E74C3C",
+        "terminal.ansiWhite":"#E0E0E0",
+        "terminal.ansiYellow":"#F1C40F",
+
+        "debugConsole.infoForeground":"#00ff66",
+        "debugConsole.warningForeground":"#fd70c7" ,
+        "debugConsole.errorForeground":"#ff0000" ,
+        "debugConsole.sourceForeground":"#36bef3",
+        "debugConsoleInputIcon.foreground":"#06ad2a",   
+
+        "window.activeBorder": "#000000",
+        "window.inactiveBorder": "#000000"
+    },
+
+    
+// MARKDOWN
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdownlint.config": {
+        "MD001": false,
+        "MD036": false,
+        "no-hard-tabs": false
+    },
+
+
+// GCODE
+    "gcode.general.units": "Metric",
+    "gcode.views.maxAutoRefresh": 100,
+    "settingsSync.ignoredSettings": [
+        "gcode.lineNumberer.ignoreBlank",
+        "gcode.lineNumberer.ignoreComments",
+        "gcode.views.navTree.autoRefresh"
+    ],
+
+
+// ARDUINO
+    "arduino.logLevel": "verbose",
+    "linux-arduino-intellisense-fix.additional_include_path":"/home/xneb/.arduino15/**",
+    "arduino.path": "/home/xneb/.arduino15",
+    "arduino.enableUSBDetection": true,
+    "arduino.openPDEFiletype": true,
+    "arduino.commandPath": "/home/xneb/bin/arduino-1.8.13/arduino",
+//  "arduino.additionalUrls": "",
+//  "[arduino-output]": {},
+    "files.associations": {
+        "*.pde": "cpp",
+        "*.h": "c",
+        "*.json": "jsonc",
+        "*.ino": "cpp"
+    },
+
+
+// C-LANGS
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+    //  "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },    
+    // "C_Cpp.commentContinuationPatterns": ["/**"], 
+
+
+// PYTHON-LANG
+    "python.defaultInterpreterPath": "/usr/bin/python3","python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.terminal.shellIntegration.enabled": true,
+    "python.useEnvironmentsExtension": true,
+
+
+// META-WORD COLOURS
+    "highlight.regexes": {
+
+        "(#include|#define|#ifndef|#elif|#endif)(.*)": [
+            {
+                "overviewRulerColor": "#f6ff80",
+                "backgroundColor": "#f6ff80",
+                "color": "#1f1f1f",
+                "fontWeight": "400",
+                "fontStyle": "italic"
+            },
+            { }
+        ],
+
+        "(//)( KOOL! :?)(.*)": [
+            { },
+            {
+                "overviewRulerColor": "#ffff00",
+                "backgroundColor": "#ffff00",
+                "color": "#ff0000",
+                "fontWeight": "400"
+            },
+            { }
+        ],
+
+        "(//)( FIXME | BUG | FIX | BUG | UGLY | DEBUG | HACK | sic! )(.*)": [
+            { }, 
+            {
+                "overviewRulerColor": "#ff0000",
+                "backgroundColor": "#ff0000",
+                "color": "#ffffff",
+                "fontWeight": "bold"
+            },
+            { }
+        ],
+
+        "(//)( TODO )(.*)": [
+            { },     
+            {
+                "overviewRulerColor": "#00ccff",
+                "backgroundColor": "#00ccff",
+                "color": "#ffff00",
+                "fontWeight": "bold",
+                "borderRadius": "5" 
+            },
+        ]
+    },
+
+
+// MISCELLANEOUS (Likely added dynamically from the bottom)
+    "liveServer.settings.donotShowInfoMsg": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 13,
+    "chat.commandCenter.enabled": false,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.autoDetectColorScheme": false,
+    "window.density.editorTabHeight": "compact",
+    "settingsSync.ignoredExtensions": [
+        "uloco.theme-bluloco-light-italic",
+        "fabiospampinato.vscode-highlight-1.9.0"
+    ],
+    "window.customTitleBarVisibility": "windowed",
+    "chat.editor.lineHeight": 3,
+    "highlight.donations.disablePrompt": true,
+    "git.openRepositoryInParentFolders": "never",
+    "diffEditor.diffAlgorithm": "legacy",
+    "diffEditor.experimental.showEmptyDecorations": false,
+    "workbench.activityBar.location": "top",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+}

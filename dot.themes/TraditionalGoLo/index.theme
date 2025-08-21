@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+
+Name[sv]=TraditionalGoLo
+Name=TraditionalGoLo
+
+Comment=Hack/Port of Clearlooks-Phenix via TraditionalOk
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Adwaita
+MetacityTheme=TraditionalGoLo
+IconTheme=HumHum
+CursorTheme=mate
+CursorSize=32
+ButtonLayout=:minimize,maximize,close

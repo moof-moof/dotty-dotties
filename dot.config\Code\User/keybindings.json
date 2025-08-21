@@ -1,0 +1,61 @@
+// 	Key bindings in this file override the defaults
+// 	***********************************************
+[
+//	meta+å
+    {
+        "key": "meta+[BracketLeft]",
+        "command": "editor.action.inspectTMScopes"
+    },
+    {
+        "key": "[BracketLeft] h",
+        "command": "editor.action.hideHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "[BracketLeft] s",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+i",
+        "command": "-editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "meta+z",
+        "command": "editor.action.fontZoomReset"
+    },
+    {
+        "key": "ctrl+shift+[BracketLeft]",
+        "command": "workbench.action.reloadWindow",
+        "when": "false"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+		"key": "escape",
+		"command": "editor.action.inlineSuggest.hide",
+		"when": "inlineEditIsVisible && editorTextFocus"
+	},
+// meta+ö
+    {
+        "key": "meta+[Semicolon]",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadOnly"
+    },
+// Toggle block-comment: meta+alt+ö  
+    {
+		"key": "meta+alt+[Semicolon]",
+		"command": "editor.action.blockComment"
+	},
+// meta+ä
+	{
+		"key": "meta+[Quote]",
+		"command": "editor.action.removeCommentLine",
+		"when": "editorTextFocus && !editorReadOnly"
+	}
+    
+]
