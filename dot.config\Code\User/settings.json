@@ -9,13 +9,26 @@
     "window.zoomPerWindow": true,
     "editor.mouseWheelZoom":true,
     "editor.fontSize": 14,
+    "editor.lineHeight": 1.2 ,
+    "editor.fontVariations": false,
+    "editor.fontWeight": "500",
     "editor.wordWrap": "on",
     "editor.minimap.size": "proportional",
     "editor.roundedSelection": true, 
     "editor.parameterHints.enabled": true,
     "editor.hover.enabled": true,
     "editor.hover.sticky": true,
-    "editor.lineHeight": 1.2 ,
+    "editor.quickSuggestionsDelay": 300,
+    "editor.dragAndDrop": false,
+    "explorer.excludeGitIgnore": true,
+    "explorer.autoReveal": true,
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "files.exclude": {
+        "**/Thumbs.db": true,
+        "**/.git": false,
+        "**/.mypy_cache": true
+        },
  
     "editor.tokenColorCustomizations": {
         "comments": {
@@ -38,6 +51,8 @@
         
         "textMateRules": []
     },
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+
     "workbench.iconTheme": "vscode-icons-mac",
     "workbench.colorTheme": "NucNucNuc",
     "workbench.preferredLightColorTheme":"Bluloco Light Italic",
@@ -73,6 +88,9 @@
         "terminal.ansiWhite":"#E0E0E0",
         "terminal.ansiYellow":"#F1C40F",
 
+
+        "debug.toolBarLocation": "floating",
+//      "debug.toolBarLocation": "docked",
         "debugConsole.infoForeground":"#00ff66",
         "debugConsole.warningForeground":"#fd70c7" ,
         "debugConsole.errorForeground":"#ff0000" ,
@@ -86,6 +104,8 @@
     
 // MARKDOWN
     "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": true,
     "markdownlint.config": {
         "MD001": false,
         "MD036": false,
