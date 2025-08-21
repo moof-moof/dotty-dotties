@@ -2,8 +2,9 @@
 # Dotty Dotties
 
 
+
 ### Description
 
-Repo of various dot-files, personalized to my own preferences. So ... likely without much interest to others.
+Repo for various dotfiles, personalized to my own preferences. Thus it is likely without interest to others.
 
-**................................................**![ ](./meta/resEdit.png)
+**. . . . . . . . . . . . . . . . . . . . . . . . .**![ ](./meta/resEdit.png)
