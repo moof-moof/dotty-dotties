@@ -14,10 +14,8 @@ if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     
     alias ls='ls --color=auto'
-    
-    alias dir='ls -lAGhNp --time-style=iso --group-directories-first'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='ls -AGhlNpv --group-directories-first'
+    alias ddd='dir --time-style=long-iso'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -26,11 +24,12 @@ fi
 
 # some more ls aliases
 # --------------------
-alias ll='ls -la'
-alias lll='ls -alF'
+alias ll='ls -aGl'
+alias lll='ls -aFGl'
 alias la='ls -A'
 alias l='ls -CF'
 alias lasort='la --group-directories-first'
+
 
 # Show octal permissions
 alias ls8="ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\"%0o\",k);print}'"
