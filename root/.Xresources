@@ -1,0 +1,21 @@
+!!!!!!!!!!!!!!!!!!!!
+
+!       [The following colour-settings actually define the non-(u)rxvt global defaults]
+!       ===============================================================================
+
+!       Customize the prompt
+!       So this is NOT rxvt-unicode specific, but it is somewhat related to colors.
+
+PS1='\[\033[00;32m\]\u\[\033[00;33m\]@\[\033[00;32m\]\h\[\033[01;30m\]:\[\033[01;36m\]\w\[\033[01;37m\]$ \[\033[00m\]'
+
+!That yields user@hostname:directory $ with
+!
+!       00;30 (fg)  green user+hostname,
+!       00;33 (fg)  yellow @,
+!       01;30 (fg)  grey :,              (bold)
+!       01;36 (fg)  cyan directory and   (bold)
+!       01;37 (fg)  white bold $.        (actually 37 is light grey)
+
+
+
+
