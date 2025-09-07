@@ -2,5 +2,5 @@
 
 ## /root dot files of interest:
 <BR>
-![](./dotfiler i roten.png) 
+![](./dotfiler_i_roten.png) 
 
