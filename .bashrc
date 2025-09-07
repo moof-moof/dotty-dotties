@@ -1,6 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
+# See /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples.
 
 # If not running interactively, don't do anything
 # ***********************************************
@@ -23,8 +23,8 @@ shopt -s histappend
 
 # For setting history length see HISTSIZE and HISTFILESIZE in bash(1).
 # ********************************************************************
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=500
+HISTFILESIZE=1000
 
 
 # Check the window size after each command, and, if necessary,
@@ -69,12 +69,12 @@ esac
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
-	color_prompt=yes
+        # We have color support; assume it's compliant with Ecma-48
+        # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+        # a case would tend to support setf rather than setaf.)
+        color_prompt=yes
     else
-	color_prompt=
+        color_prompt=
     fi
 fi
 
@@ -108,6 +108,11 @@ esac
 ## Colored GCC warnings and errors 
 #  *******************************
 #  export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+
+
+## Set colours for lsd (ls deluxe), et al
+#  **************************************
+# export LS_COLORS="$(vivid -m 8-bit generate ayu)"
 
 
 # Alias definitions.
