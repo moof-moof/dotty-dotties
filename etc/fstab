@@ -1,0 +1,30 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+##### Version 250306
+# 
+# <file system> 						                 <mount point>   <type>  <options>    	 <dump>  <pass>
+# ======================================================|===============|=======|===============|=======|======
+#                                                       v               v       v               v       v
+# / was on /dev/nvme0n1p3 during curtin installation
+/dev/disk/by-uuid/b556a2e3-bffe-4dbc-875e-eafe75c13bc9 	/ 				ext4 	defaults 		0 		1
+#
+# /boot/efi was on /dev/nvme0n1p1 during curtin installation
+/dev/disk/by-uuid/10EA-F890 							/boot/efi 		vfat 	defaults 		0 		1
+#
+# /home was on /dev/nvme0n1p4 during curtin installation
+/dev/disk/by-uuid/8b3db897-66d7-40ad-8f46-9a7286c8134d 	/home 			ext4 	defaults 		0 		1
+#
+# /var was on /dev/nvme0n1p5 during curtin installation
+/dev/disk/by-uuid/e653bdfc-3d62-4ccf-afe2-53d3960a7873 	/var 			ext4 	defaults 		0 		1
+#
+# /swap was on /dev/nvme0n1p2
+/dev/disk/by-uuid/91fbe929-7e61-4f3d-957e-dcf6d30be97c  none			swap	sw				0		0
+#
+# External backup disk partions:
+/dev/disk/by-partlabel/bkp_ntfs 				/media/xneb/p2dejadup	ntfs    rw,umask=0002,locale=sv_SE.UTF-8,uid=1000,gid=1000,nosuid,nodev,nofail,noauto,x-gvfs-show 	0 	0
+/dev/disk/by-partlabel/bkp_ext4 				/media/xneb/p1timeshare ext4	nosuid,nodev,nofail,noauto,x-gvfs-show 	0 	0
+#

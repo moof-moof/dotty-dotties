@@ -1,0 +1,44 @@
+ /*  Hela denna fil skapad och tillagd. 
+     Fixar synlig bakgrund för text-label'n!!  */
+
+
+@define-color label_bg_color  rgba(255,220,12,0.5); 
+
+
+ .caja-desktop.caja-canvas-item {
+color: #3F3F3F;     /* Blackish */
+text-shadow: none;
+background: @label_bg_color;
+}
+
+.caja-desktop.caja-canvas-item:active,
+.caja-desktop.caja-canvas-item:hover,
+.caja-desktop.caja-canvas-item:selected {
+    text-shadow: none;    
+    background: @theme_bg_color;
+}
+
+.caja-canvas-item {
+    border-radius: 5px;
+}
+
+
+/****************
+ * color scheme *
+ ****************/
+
+@define-color theme_tooltip_bg_color #f5f5b5;
+@define-color theme_tooltip_fg_color #000000;
+
+
+
+
+/*  
+
+THIS SEEMED TO CAUSE CRASH AFTER LOGOUT/IN :
+
+.mate-panel-menu-bar menuitem {
+padding: 0 0px;
+}
+
+*/
