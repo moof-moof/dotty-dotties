@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/x-nfo">
+  		<comment>NFO-dokument</comment>
+  		<sub-class-of type="text/plain"/>
+  		<generic-icon name="text-x-info"/>
+  		<glob weight="100" pattern="INFO*"/>
+  		<glob weight="100" pattern="INFO.txt"/>
+  		<glob weight="100" pattern="*.nfo"/>
+  		<glob weight="100" pattern="*.inf"/>
+  		<glob weight="100" pattern="*.info"/>
+	</mime-type>
+</mime-info>

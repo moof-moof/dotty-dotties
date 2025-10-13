@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+	<mime-type type="text/gcode">
+		<sub-class-of type="text/plain"/>
+		<comment>Gcode 2D datafil</comment>
+		<generic-icon name="text-gcode"/>
+		<glob pattern="*.gcode"/>
+	   <glob pattern="*.gco"/>
+	   <glob pattern="*.gc"/>
+	   <glob pattern="*.nc"/>
+	   <glob pattern="*.ngc"/>
+	   <glob pattern="*.cnc"/>
+	</mime-type>
+</mime-info> 

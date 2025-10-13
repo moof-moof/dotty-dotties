@@ -1,0 +1,15 @@
+[Default Applications]
+text/gcode=geany.desktop
+text/gc=geany.desktop
+text/nc=geany.desktop
+text/ngc=geany.desktop
+text/x-gcode=geany.desktop
+text/x-gc=geany.desktop
+text/x-nc=geany.desktop
+text/x-ngc=geany.desktop
+text/x.gcode=geany.desktop
+text/x-arduino=arduino-arduinoide.desktop
+text/x-readme=org.xfce.mousepad.desktop
+text/markdown=remarkable-1.desktop
+text/text-csv=geany.desktop
+text/text-x-csv=geany.desktop

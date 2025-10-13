@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/x-texinfo">
+  		<comment>TeXInfo-dokument</comment>
+  		<sub-class-of type="text/plain"/>
+  		<generic-icon name="text-x-info"/>
+  		<glob weight="100" pattern="*.texi"/>
+  		<glob weight="100" pattern="*.texinfo"/>
+	</mime-type>
+</mime-info>

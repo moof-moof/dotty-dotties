@@ -1,0 +1,7 @@
+text/text-csv:text-csv
+text/x-nfo:text-x-info
+text/x-readme:text-x-readme
+text/x-texinfo:text-x-info
+text/markdown:text-markdown
+text/gcode:text-gcode
+text/x.gcode:text-x-nocigar

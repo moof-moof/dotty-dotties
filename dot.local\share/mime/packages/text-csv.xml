@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/text-csv">
+  		<comment>Comma_Separated_Values-dokument</comment>
+  		<sub-class-of type="text/plain"/>
+  		<generic-icon name="text-csv"/>
+  		<glob weight="50" pattern="*.csv"/>
+  		<alias type="text/text-x-csv"/>
+	</mime-type>
+</mime-info>

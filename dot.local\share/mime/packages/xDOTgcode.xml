@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="text/x.gcode">
+    <comment>G-code file "package"</comment>
+    <comment xml:lang="sv">text/x.gode-fil (No cigar)</comment>
+    <comment xml:lang="en_GB">text/x.gode-fil (No cigar)</comment>
+    <sub-class-of type="text/plain"/>
+    <generic-icon name="text-x-nocigar"/>
+    <glob pattern="*.nocigar"/>
+  </mime-type>
+</mime-info> 
