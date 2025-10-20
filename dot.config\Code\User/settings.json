@@ -151,7 +151,7 @@
 
 
 // PYTHON-LANG
-    "python.defaultInterpreterPath": "/usr/bin/python3","python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.defaultInterpreterPath": "/bin/python3","python-envs.defaultEnvManager": "ms-python.python:system",
     "python.terminal.shellIntegration.enabled": true,
     "python.useEnvironmentsExtension": true,
 
@@ -209,7 +209,6 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontSize": 13,
     "chat.commandCenter.enabled": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.autoDetectColorScheme": false,
@@ -226,5 +225,15 @@
     "diffEditor.experimental.showEmptyDecorations": false,
     "workbench.activityBar.location": "top",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "print.alternateBrowser.enable": true,
+    "print.alternateBrowser.path": "/lib/x86_64-linux-gnu/opera/opera",
+    "print.general.filepathStyleInHeadings": "Absolute",
+    "print.sourcecode.colourScheme": "Visual Studio",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.fontFamily": "Input",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeight": "bold",
+    "markdown-preview-enhanced.previewTheme": "solarized-light.css",
+    "markdown-preview-enhanced.codeBlockTheme": "funky.css",
 
 }

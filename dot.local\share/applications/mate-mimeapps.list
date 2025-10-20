@@ -52,3 +52,4 @@ text/markdown=remarkable-1.desktop
 text/x-arduino=arduino-arduinoide.desktop
 text/csv=geany.desktop
 text/x-csv=geany.desktop
+text/x-common-lisp=geany.desktop

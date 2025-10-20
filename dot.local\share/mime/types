@@ -5,6 +5,7 @@ text/gcode
 text/markdown
 text/text-csv
 text/x-arduino
+text/x-common-lisp
 text/x-nfo
 text/x-readme
 text/x-texinfo

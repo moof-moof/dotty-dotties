@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/x-common-lisp">
+  		  	<comment>Common Lisp source code</comment>
+  			<comment xml:lang="sv">Common Lisp-källkod</comment>
+  			<sub-class-of type="text/plain"/>
+  			<generic-icon name="text-x-common-lisp"/>
+  			<glob pattern="*.lsp"/>
+  			<glob pattern="*.lisp"/>
+  			<glob pattern="*.asd"/>
+  			<glob pattern="*.fasl"/>
+  			<glob pattern="*.ros"/>
+  			<glob pattern="*.el"/>
+	</mime-type>
+</mime-info>

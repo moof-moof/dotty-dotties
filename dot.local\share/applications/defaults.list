@@ -13,3 +13,4 @@ text/x-readme=org.xfce.mousepad.desktop
 text/markdown=remarkable-1.desktop
 text/text-csv=geany.desktop
 text/text-x-csv=geany.desktop
+text/x-common-lisp=geany.desktop

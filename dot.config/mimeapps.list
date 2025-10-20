@@ -74,6 +74,7 @@ font/ttf=mate-font-viewer-1-1.desktop
 font/collection=mate-font-viewer-1-1.desktop
 text/csv=l3afpad-1.desktop
 image/svg+xml=eom.desktop
+text/x-readme=remarkable-1.desktop
 
 [Added Associations]
 application/vnd.oasis.opendocument.text=libreoffice-startcenter.desktop;
@@ -94,7 +95,7 @@ image/x-xcursor=geany.desktop;mozo-made-15.desktop;
 application/vnd.efi.img=pluma.desktop;
 application/vnd.debian.binary-package=pluma.desktop;glogg-1.desktop;gdebi.desktop;
 text/x-python=userapp-python3-KKC0W2.desktop;code.desktop;userapp-code-AN05A3.desktop;
-text/x-readme=org.xfce.mousepad.desktop;
+text/x-readme=org.xfce.mousepad.desktop;remarkable-1.desktop;
 text/markdown=remarkable-1.desktop;userapp-code-SNBZA3.desktop;
 application/x-extension-qm=glogg-1.desktop;
 inode/symlink=mozo-made-15.desktop;geany.desktop;
@@ -119,6 +120,7 @@ image/heif=eom.desktop;
 font/collection=mate-font-viewer-1-1.desktop;
 text/text-csv=l3afpad-1.desktop;
 image/svg+xml=org.inkscape.Inkscape.desktop;eom.desktop;
+text/x-common-lisp=geany.desktop;
 
 [Removed Associations]
 image/png=userapp-kolourpaint-524EW2.desktop;
