@@ -37,6 +37,7 @@
 	<comment xml:lang="zh_CN">Arduino 源代码</comment>
 	<comment xml:lang="zh_TW">Arduino 源代碼</comment>
         <sub-class-of type="text/x-c++src"/>
+        <generic-icon name="text-x-arduino"/>
         <glob pattern="*.ino"/>
         <glob pattern="*.pde"/>
     </mime-type>

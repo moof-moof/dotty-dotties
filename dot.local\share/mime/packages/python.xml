@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="text/x-python">
+		<comment>Python script</comment>
+		<comment xml:lang="sv">Pythonskript</comment>
+		<generic-icon name="text-x-python"/>
+		<sub-class-of type="application/x-executable"/>
+		<sub-class-of type="text/plain"/>
+		<glob pattern="*.py" weight="60"/>
+		<glob pattern="*.pyx" weight="60"/>
+		<glob pattern="*.wsgi" weight="60"/>
+  </mime-type>
+</mime-info>

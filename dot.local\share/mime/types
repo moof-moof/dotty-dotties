@@ -1,12 +1,17 @@
 application/x-extension-keyring
 application/x-extension-qm
 application/x-extension-xsession-errors
+application/x-python-bytecode
 text/gcode
 text/markdown
 text/text-csv
 text/x-arduino
+text/x-chdr
 text/x-common-lisp
+text/x-csrc
 text/x-nfo
+text/x-python
+text/x-python3
 text/x-readme
 text/x-texinfo
 text/x.gcode

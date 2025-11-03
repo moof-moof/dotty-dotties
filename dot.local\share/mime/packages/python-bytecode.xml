@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/x-python-bytecode">
+		<comment>Python bytecode</comment>
+		<generic-icon name="x-python-bytecode"/>
+		<comment xml:lang="sv">Python-bytekod</comment>
+		<glob pattern="*.pyc"/>
+		<glob pattern="*.pyo"/>
+	</mime-type>
+</mime-info>
+
