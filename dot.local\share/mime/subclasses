@@ -1,4 +1,4 @@
-text/x.gcode text/plain
+text/x-log text/plain
 text/markdown text/plain
 text/x-csrc text/plain
 text/x-common-lisp text/plain
@@ -12,3 +12,4 @@ text/x-python3 text/x-python
 text/x-arduino text/x-c++src
 text/x-chdr text/x-csrc
 text/text-csv text/plain
+text/x.gcode text/plain

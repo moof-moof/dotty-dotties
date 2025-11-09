@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/x-log">
+  		<comment>Generic log file</comment>
+  		<comment xml:lang="sv">Programlogg</comment>
+  		<sub-class-of type="text/plain"/>
+  		<generic-icon name="text-x-log"/>
+  		<glob pattern="*.log"/>
+  		<glob pattern="*.log.1"/>
+  		<glob pattern="*.log*"/>
+  		<glob pattern="*.logg"/>
+	</mime-type>
+</mime-info>

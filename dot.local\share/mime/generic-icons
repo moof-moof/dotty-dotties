@@ -1,4 +1,4 @@
-text/x.gcode:text-x-nocigar
+text/x-log:text-x-log
 text/markdown:text-markdown
 application/x-python-bytecode:x-python-bytecode
 text/x-csrc:text-x-c
@@ -12,3 +12,4 @@ text/x-python3:text-x-python
 text/x-chdr:text-x-chdr
 text/x-texinfo:text-x-info
 text/text-csv:text-csv
+text/x.gcode:text-x-nocigar
