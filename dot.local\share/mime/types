@@ -2,6 +2,7 @@ application/x-extension-keyring
 application/x-extension-qm
 application/x-extension-xsession-errors
 application/x-python-bytecode
+audio/x-mod
 text/gcode
 text/markdown
 text/text-csv
@@ -14,5 +15,6 @@ text/x-nfo
 text/x-python
 text/x-python3
 text/x-readme
+text/x-rst
 text/x-texinfo
 text/x.gcode

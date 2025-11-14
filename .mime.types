@@ -21,25 +21,49 @@
 #												(~/.local/share/applications/mimeapps.list)
 #   usr/share/applications/mimeinfo.cache	    (~/.local/share/applications/mimeinfo.cache) = [default to geany.desktop]
 #
-#   usr/share/mate/applications/defaults.list	(hur kan vi förekomma denna fil?)
+#   usr/share/mate/applications/defaults.list	(hur kan vi förekomma denna fil? OBS :/mate/applications/, INTE /mime/application/!)
+#																					   ****            *         ****
 #
 #  	usr/share/mime/application/defaults.list 	(~/.local/share/mime/application/defaults.list)
 #  	usr/share/mime/application/*.xml 			(~/.local/share/mime/application/*.xml)
-#	usr/share/mime/text/*.xml					(~/.local/share/mime/text/.xml)
-#  	usr/share/mime/globs  						(~/.local/share/mime/globs/)	skrivs över av update-mime-database
-#  	usr/share/mime/globs2  						(~/.local/share/mime/globs2)	skrivs över av update-mime-database
+#	usr/share/mime/text/*.xml					(~/.local/share/mime/text/*.xml)	skrivs över av update-mime-database
+#  	usr/share/mime/globs  						(~/.local/share/mime/globs/)		skrivs över av update-mime-database
+#  	usr/share/mime/globs2  						(~/.local/share/mime/globs2)		skrivs över av update-mime-database
 #	
 #
 ###############################################################################
+#(The "octet-stream" subtype is used to indicate that a file contains arbitrary binary data.)
+#
+#    "The following two important MIME types are the default types":
+#
+#    * text/plain = is the default value for textual files. A textual file 
+#      should be human-readable and must not contain binary data.
+#
+#   * application/octet-stream = is the default value for all other cases. 
+#      An unknown file type should use this type.
+#
+#-------------------------------------------------------------------------------
 
 
 
 text/gcode							gcode gco gc nc ngc cnc
 text/x-gcode						gcode gco gc nc ngc cnc
 text/x-nocigar						nocigar
+text/x-readme						README* README.text README.md
+text/markdown						md mkd markdown
+text/x-arduino  					ino pde
+text/x-sh							sh
+application/x-shellscript     		sh
+text/x-texinfo						texi texinfo
+text/x-nfo							INFO* INFO.txt nfo inf info
+text/text-csv						csv
+text/x-common-lisp					lisp lsp asd fasl ros el
+
 
 application/x-netcdf        		cdf
 
 ## Possibly not needed anymore?:
 application/x-neo-geo-pocket-rom		oxo
 application/x-neo-geo-pocket-color-rom	oxo
+
+

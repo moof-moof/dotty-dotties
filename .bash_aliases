@@ -34,6 +34,9 @@ alias lasort='la --group-directories-first'
 # Show octal permissions (cp lsdx/lsd- aliases below)
 alias ls8="ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\"%0o\",k);print}'"
 
+alias lsdx='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size'
+alias lsd-='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size --color never'
+
 alias cl=clear
 alias rm="rm -i"            # safety first
 alias p3='python3'
@@ -43,7 +46,7 @@ alias ...="cd .. ; cd .."   # go up-up
 
 #alias - --="cd -"           # "--" = return to OLDPWD (if set)
 ###
-### Any alias-names exclusevily using hyphens (minus-signs) is a "dangerous"!
+### Any alias-names exclusevily using hyphens (minus-signs) is "dangerous"!
 ### Such aliases can't be completely unaliased and forgotten, it seems.
 ###
 ### If an attempt has been made to unalias and/or deleting an alias in
@@ -75,9 +78,21 @@ alias systail='tail -f /var/log/syslog'
 # Check if our DNS is still uptodate
 alias testip='cd ~/bin/sh/; ./ip-test_notify-send.sh'
 
+# Check if bash has left any (empty) history.temp-files
+alias tempo="inotifywait -m ~ --format '%w%f %e' -e create"
+
 # Add an "alert" alias for long running commands.  
 # Use like so:  sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+# Launch feh in quiet mode
+alias feh='feh -q'
+
+# Launch Common Lisp (SBCL) via rlwrap (GNU Readline)
+alias lisp='rlwrap -A sbcl'
+
+# Update mime, desktop and icon databases pronto
+alias upupup='update-mime-database ~/.local/share/mime/ && update-desktop-database ~/.local/share/ && gtk-update-icon-cache -f ~/.local/share/icons/HumHum/ && echo "As was the mime and desktop databases, evidently!"' 
 
 
 # ---------------------------------------------------------------------------------------------------
@@ -103,7 +118,5 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 #  -r, --reverse                  Reverse the order of the sort
 #      --group-directories-first  Groups the directories at the top before the files. Same as --group-dirs=first
 
-alias lsdx='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size'
-alias lsd-='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size --color never'
 
 
