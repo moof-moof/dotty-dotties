@@ -3,8 +3,8 @@
 
 <svg
    version="1.0"
-   width="48"
-   height="48"
+   width="32"
+   height="32"
    id="svg2696"
    sodipodi:docname="folder-pictures.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="11.313708"
-     inkscape:cx="32.261747"
-     inkscape:cy="37.211494"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="49.143921"
+     inkscape:cy="57.452426"
      inkscape:window-width="1871"
      inkscape:window-height="1355"
      inkscape:window-x="536"
@@ -638,7 +638,7 @@
        gradientTransform="matrix(-0.5248057,0,0,0.5248057,-23.960382,22.595691)" />
   </defs>
   <g
-     transform="matrix(1.005578,0,0,0.9975,-0.26265203,-3.0714131)"
+     transform="matrix(0.67038535,0,0,0.665,-0.17510175,-2.0476087)"
      id="layer1"
      style="display:inline"
      inkscape:label="layer1">

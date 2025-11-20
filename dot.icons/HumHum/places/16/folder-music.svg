@@ -3,10 +3,10 @@
 
 <svg
    version="1.0"
-   width="48"
-   height="48"
+   width="16"
+   height="16"
    id="svg2696"
-   sodipodi:docname="folder-pictures.svg"
+   sodipodi:docname="folder-music.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="11.313708"
-     inkscape:cx="32.261747"
-     inkscape:cy="37.211494"
+     inkscape:zoom="16"
+     inkscape:cx="17.03125"
+     inkscape:cy="11.78125"
      inkscape:window-width="1871"
-     inkscape:window-height="1355"
-     inkscape:window-x="536"
-     inkscape:window-y="28"
+     inkscape:window-height="1348"
+     inkscape:window-x="488"
+     inkscape:window-y="35"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -638,7 +638,7 @@
        gradientTransform="matrix(-0.5248057,0,0,0.5248057,-23.960382,22.595691)" />
   </defs>
   <g
-     transform="matrix(1.005578,0,0,0.9975,-0.26265203,-3.0714131)"
+     transform="matrix(0.33519268,0,0,0.3325,-0.087551,-1.0238044)"
      id="layer1"
      style="display:inline"
      inkscape:label="layer1">
@@ -657,44 +657,14 @@
     <g
        id="g2372-6"
        style="display:inline"
-       transform="matrix(0.35427386,0,0,0.35714286,15.54915,12.387785)"
+       transform="matrix(0.37291985,0,0,0.37593985,11.337988,14.07334)"
        inkscape:label="g2372-6" />
-    <path
-       d="M 15.403498,20.057369 H 9.2667378 c -0.9121127,0 -1.648204,0.692501 -1.648204,1.542221 v 19.19168 c 0,0.853461 0.7400917,1.542221 1.648204,1.542221 H 39.378469 c 0.912112,0 1.648204,-0.692502 1.648204,-1.542221 V 21.59959 c 0,-0.853462 -0.740092,-1.542221 -1.648204,-1.542221 z"
-       fill="#ffffff"
-       id="path6"
-       style="display:inline;stroke:#000000;stroke-width:0.67584;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:label="path6  ***** yttre ram" />
-    <path
-       d="M 16.63904,22.428258 H 9.9961421 c -0.071888,-7.93e-4 -0.067865,-0.0086 -0.067481,0.06029 4e-5,0.01038 0,16.329755 0,16.329755 0,0.672846 0.6354669,1.220792 1.4228079,1.220792 h 25.942267 c 0.783344,0 1.42281,-0.547946 1.42281,-1.220792 V 22.441777 c 0,-0.0075 -0.0071,-0.01352 -0.01599,-0.01352 z"
-       fill="#80ddff"
-       id="path10"
-       style="display:inline;stroke:#000000;stroke-width:0.711411;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:label="path10 *****  inre ram och himmel"
-       sodipodi:nodetypes="cccssssssc" />
-    <path
-       d="m 21.754755,40.039094 -8.013287,-8.07818 -3.8088096,3.839654 v 4.238526 z"
-       fill="#78ff0a"
-       id="path12"
-       inkscape:label="path12  ***** BERG 3"
-       style="fill:#618ef9;fill-opacity:1;stroke:#000000;stroke-width:0.67584;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       d="m 19.500643,28.375088 m -3.948692,0 a 3.9486921,3.9806697 0 1 0 7.897384,0 3.9486921,3.9806697 0 1 0 -7.897384,0 z"
-       fill="#fff200"
-       id="path14"
-       inkscape:label="path14  ***** SOLEN"
-       style="stroke:#000000;stroke-width:0.67584;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       d="M 38.712548,37.871484 26.578713,25.639385 12.302673,40.035065 h 26.409875 z"
-       fill="#00bd87"
-       id="path16"
-       style="display:inline;fill:#00bd5d;fill-opacity:1;stroke:#000000;stroke-width:0.67584;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:label="path16  ***** BERG 2" />
-    <path
-       d="m 38.712548,33.512085 -3.31722,-3.344084 -9.791797,9.871093 h 13.109017 z"
-       fill="#78ff0a"
-       id="path18"
-       inkscape:label="path18 ***** BERG 1"
-       style="fill:#86cf4b;fill-opacity:1;stroke:#000000;stroke-width:0.67584;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       id="SVGRepo_iconCarrier"
+       transform="matrix(0.9322996,0,0,0.9398496,8.1329057,16.489563)"
+       sodipodi:insensitive="true"> <path
+   d="M 28.6,3.2 C 28.4,3 28.1,3 27.8,3 l -16,3 C 11.3,6.1 11,6.5 11,7 V 21.8 C 10.2,21.3 9.1,21 8,21 c -2.8,0 -5,1.8 -5,4 0,2.2 2.2,4 5,4 2.8,0 5,-1.8 5,-4 V 12.8 l 14,-2.6 v 8.6 C 26.2,18.3 25.1,18 24,18 c -2.8,0 -5,1.8 -5,4 0,2.2 2.2,4 5,4 2.8,0 5,-1.8 5,-4 V 4 C 29,3.7 28.9,3.4 28.6,3.2 Z M 13,10.8 v -3 L 27,5.2 v 3 z"
+   id="path250" />
+ </g>
   </g>
 </svg>
