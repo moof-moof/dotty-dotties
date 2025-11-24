@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="48"
-   height="48"
-   viewBox="0 0 36 36"
+   width="32"
+   height="32"
+   viewBox="0 0 24 24"
    version="1.1"
    id="svg14"
    sodipodi:docname="drive-removable-media-usb.svg"
@@ -33,28 +33,28 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg14" />
   <path
-     d="m 17.999999,35.723076 c 8.507079,0 8.507079,-8.507075 8.507079,-8.507075 V 10.201845 c 0,-2.8356899 -2.835693,-2.8356899 -2.835693,-2.8356899 H 12.328613 c 0,0 -2.8356911,0 -2.8356911,2.8356899 v 17.014156 c 0,0 0,8.507075 8.5070771,8.507075 z"
-     style="fill:#3596eb;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.553845;stroke-dasharray:none;stroke-opacity:1"
+     d="m 12,23.815385 c 5.671385,0 5.671385,-5.671386 5.671385,-5.671386 V 6.801229 c 0,-1.89046 -1.890461,-1.89046 -1.890461,-1.89046 H 8.219075 c 0,0 -1.89046,0 -1.89046,1.89046 v 11.34277 c 0,0 0,5.671386 5.671385,5.671386 z"
+     style="fill:#3596eb;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.36923;stroke-dasharray:none;stroke-opacity:1"
      id="path2" />
   <path
-     d="M 12.328613,7.3661551 H 23.671385 V 0.2769235 H 12.328613 Z"
-     style="fill:#b0bcc1;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.553845;stroke-dasharray:none;stroke-opacity:1"
+     d="m 8.219075,4.910769 h 7.561849 V 0.184615 H 8.219075 Z"
+     style="fill:#b0bcc1;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.36923;stroke-dasharray:none;stroke-opacity:1"
      id="path6" />
   <path
-     d="M 17.999999,7.0551931 H 22.25354 V 0.5693825 h -4.253541 z"
-     style="fill:#ffffff;fill-opacity:0.31;fill-rule:nonzero;stroke:none;stroke-width:0.904101"
+     d="m 12,4.7034611 h 2.835693 V 0.37958733 H 12 Z"
+     style="fill:#ffffff;fill-opacity:0.31;fill-rule:nonzero;stroke:none;stroke-width:0.602735"
      id="path8" />
   <path
-     d="m 13.746464,4.5304621 h 2.83569 V 1.6947705 h -2.83569 z"
-     style="fill:#05353f;fill-opacity:0.655;fill-rule:nonzero;stroke:none;stroke-width:0.945225"
+     d="M 9.164309,3.020307 H 11.05477 V 1.129846 H 9.164309 Z"
+     style="fill:#05353f;fill-opacity:0.655;fill-rule:nonzero;stroke:none;stroke-width:0.63015"
      id="path10" />
   <path
-     d="M 19.417844,4.5304621 H 22.25354 V 1.6947705 h -2.835696 z"
-     style="fill:#05353f;fill-opacity:0.655;fill-rule:nonzero;stroke:none;stroke-width:0.945225"
+     d="m 12.94523,3.020307 h 1.890463 V 1.129846 H 12.94523 Z"
+     style="fill:#05353f;fill-opacity:0.655;fill-rule:nonzero;stroke:none;stroke-width:0.63015"
      id="path12" />
   <g
      id="g3136"
-     transform="matrix(0,-0.06013263,0.06397209,0,14.1131,33.050112)">
+     transform="matrix(0,-0.04008842,0.04264805,0,9.408734,22.033409)">
     <path
        fill-rule="evenodd"
        clip-rule="evenodd"
@@ -99,7 +99,7 @@
        fill-rule="evenodd"
        clip-rule="evenodd"
        fill="#ffffff"
-       points="61.299805,70.793945 57.948242,70.793945 60.880859,57.389648 57.110352,57.389648 57.669922,54.59668 68.560547,54.59668 68.00293,57.389648 64.232422,57.389648 "
+       points="57.669922,54.59668 68.560547,54.59668 68.00293,57.389648 64.232422,57.389648 61.299805,70.793945 57.948242,70.793945 60.880859,57.389648 57.110352,57.389648 "
        id="polygon3120" />
     <polygon
        fill-rule="evenodd"
@@ -111,7 +111,7 @@
        fill-rule="evenodd"
        clip-rule="evenodd"
        fill="#ffffff"
-       points="83.083008,61.299805 87.830078,61.299805 87.271484,63.673828 82.524414,63.673828 80.988281,70.793945 77.636719,70.793945 81.12793,54.59668 89.366211,54.59668 88.947266,57.110352 83.920898,57.110352 "
+       points="88.947266,57.110352 83.920898,57.110352 83.083008,61.299805 87.830078,61.299805 87.271484,63.673828 82.524414,63.673828 80.988281,70.793945 77.636719,70.793945 81.12793,54.59668 89.366211,54.59668 "
        id="polygon3124" />
     <polygon
        fill-rule="evenodd"
@@ -135,18 +135,18 @@
        fill-rule="evenodd"
        clip-rule="evenodd"
        fill="#ffffff"
-       points="289.74121,120.92285 287.92676,120.92285 289.46191,113.94238 287.50684,113.94238 287.78613,112.54395 293.51074,112.54395 293.09277,113.94238 291.1377,113.94238 "
+       points="287.78613,112.54395 293.51074,112.54395 293.09277,113.94238 291.1377,113.94238 289.74121,120.92285 287.92676,120.92285 289.46191,113.94238 287.50684,113.94238 "
        id="polygon3132" />
     <polygon
        fill-rule="evenodd"
        clip-rule="evenodd"
        fill="#ffffff"
-       points="303.28613,112.54395 301.47168,120.92285 299.7959,120.92285 301.05176,114.50098 298.12012,120.92285 296.44434,120.92285 296.30371,114.50098 296.16504,114.50098 294.90723,120.92285 293.09277,120.92285 294.90723,112.54395 297.7002,112.54395 297.84082,118.27051 300.49316,112.54395 "
+       points="299.7959,120.92285 301.05176,114.50098 298.12012,120.92285 296.44434,120.92285 296.30371,114.50098 296.16504,114.50098 294.90723,120.92285 293.09277,120.92285 294.90723,112.54395 297.7002,112.54395 297.84082,118.27051 300.49316,112.54395 303.28613,112.54395 301.47168,120.92285 "
        id="polygon3134" />
   </g>
   <path
-     d="m 20.718626,7.3661551 -0.06687,27.7871759 c 1.886004,-0.437877 3.222021,-2.238981 4.346331,-2.816172 L 24.930197,7.9349503"
-     style="display:inline;fill:#ffffff;fill-opacity:0.205918;fill-rule:nonzero;stroke:none;stroke-width:0.945225"
+     d="m 13.812417,4.910769 -0.04457,18.524786 c 1.257337,-0.291918 2.148015,-1.492654 2.897556,-1.877448 L 16.620133,5.289966"
+     style="display:inline;fill:#ffffff;fill-opacity:0.205918;fill-rule:nonzero;stroke:none;stroke-width:0.63015"
      id="path4"
      sodipodi:nodetypes="cccc" />
 </svg>
