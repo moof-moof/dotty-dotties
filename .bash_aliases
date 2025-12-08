@@ -89,10 +89,17 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias feh='feh -q'
 
 # Launch Common Lisp (SBCL) via rlwrap (GNU Readline)
-alias lisp='rlwrap -A sbcl'
+alias lisb='rlwrap -A sbcl'
+
+# Launch Common Lisp via cl-launch
+alias licl='cl-launch'
 
 # Update mime, desktop and icon databases pronto
 alias upupup='update-mime-database ~/.local/share/mime/ && update-desktop-database ~/.local/share/ && gtk-update-icon-cache -f ~/.local/share/icons/HumHum/ && echo "As was the mime and desktop databases, evidently!"' 
+
+# Add zenity alias to make the annoying terminal error message disappear forever:
+# "Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged."
+alias zenity="zenity 2>/dev/null"
 
 
 # ---------------------------------------------------------------------------------------------------
