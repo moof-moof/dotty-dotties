@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/x-php">
+		<comment>PHP script</comment>
+        <sub-class-of type="text/plain"/>
+		<generic-icon name="application-x-php"/>
+		<magic priority="80">
+            <match type="string" value="&lt;?php" offset="0:64"/>
+        </magic>
+		<glob pattern="*.php"/>
+		<glob pattern="*.php*"/>
+		<alias type="gnome-mime-application-x-php"/>
+		<alias type="text/x-php"/>
+	</mime-type>
+</mime-info>
+

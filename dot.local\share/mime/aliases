@@ -1,4 +1,9 @@
+application/x-yaml application/yaml
+text/forth text/x-forth
 text/readme text/x-readme
 text/text-x-csv text/text-csv
 text/x-c text/x-csrc
 text/x-markdown text/markdown
+text/x-yaml application/yaml
+text/xml application/xml
+text/yaml application/yaml

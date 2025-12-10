@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/xhtml+xml">
+		<comment>XHTML page</comment>
+		<acronym>XHTML</acronym>
+		<expanded-acronym>Extensible HyperText Markup Language</expanded-acronym>
+		<sub-class-of type="application/xml"/>
+		<generic-icon name="text-xhtml+xml"/>
+		<magic priority="60">
+			<match type="string" value="//W3C//DTD XHTML " offset="0:256"/>
+			<match type="string" value="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" offset="0:256"/>
+			<match type="string" value="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml" offset="0:256"/>
+			<match type="string" value="&lt;HTML xmlns=&quot;http://www.w3.org/1999/xhtml" offset="0:256"/>
+		</magic>
+		<glob pattern="*.xhtml"/>
+		<glob pattern="*.xht"/>
+        <alias type="gnome-mime-application-xhtml+xml"/> 
+		<root-XML namespaceURI="http://www.w3.org/1999/xhtml" localName="html"/>
+	</mime-type>
+</mime-info>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/x-forth">
+  		<comment>FORTH-source</comment>
+  		<sub-class-of type="text/plain"/>
+  		<generic-icon name="text-x-forth"/>
+  		<glob weight="50" pattern="*.fth"/>
+  		<glob weight="100" pattern="*.fs"/>
+  		<glob weight="20" pattern="*.f"/>
+  		<glob weight="50" pattern="*.4th"/>
+  		<glob weight="50" pattern="*.forth"/>
+  		<glob weight="50" pattern="*.frt"/>
+  		<glob weight="100" pattern="*.fr"/>
+  		<alias type="text/forth"/>
+	</mime-type>
+</mime-info>
+
+

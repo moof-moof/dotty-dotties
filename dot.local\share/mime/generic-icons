@@ -1,11 +1,16 @@
+text/html:text-html
 text/x-arduino:text-x-arduino
+text/x-forth:text-x-forth
 text/gcode:text-gcode
+application/yaml:application-yaml
 text/x-csrc:text-x-c
 text/x-common-lisp:text-x-common-lisp
 text/x-python:text-x-python
+text/text-csv:text-csv
+application/xhtml+xml:text-xhtml+xml
 text/x-readme:text-x-readme
 text/x.gcode:text-x-nocigar
-text/text-csv:text-csv
+application/x-php:application-x-php
 text/x-rst:text-x-rst
 text/x-log:text-x-log
 application/x-python-bytecode:x-python-bytecode
@@ -14,3 +19,4 @@ text/x-python3:text-x-python
 text/x-texinfo:text-x-info
 text/x-nfo:text-x-info
 text/x-chdr:text-x-chdr
+application/xml:text-xml

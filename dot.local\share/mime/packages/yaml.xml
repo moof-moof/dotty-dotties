@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="application/yaml">
+        <comment>YAML document</comment>
+        <acronym>YAML</acronym>
+        <expanded-acronym>YAML Ain't Markup Language</expanded-acronym>
+        <sub-class-of type="text/plain"/>
+		<generic-icon name="application-yaml"/>
+        <magic>
+            <match type="string" value="%YAML" offset="0"/>
+        </magic>
+        <glob pattern="*.yaml"/>
+        <glob pattern="*.yml"/>
+		<alias type="application/x-yaml"/>
+        <alias type="text/yaml"/>
+        <alias type="text/x-yaml"/>
+	</mime-type>
+</mime-info>
+
+
