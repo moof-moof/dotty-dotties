@@ -37,3 +37,15 @@ fi
 # Inserted by uv-installer script:
 # ********************************
 . "$HOME/.local/share/../bin/env"
+
+
+# Added to stop gtk blabber stuff like:
+# "Gtk-Message:..: GtkDialog mapped without a transient parent. This is discouraged."
+# Adwaita-WARNING **: 23:00:41.729: No known Yaru accent 'MATE'
+# *************************************************************
+GTK_SILENT=1
+
+
+# Delete any and all .bash_history-12345.tmp files.
+# **************************************************************
+rm --interactive=never /home/xneb/.bash_history-*.tmp
