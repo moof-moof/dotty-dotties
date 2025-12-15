@@ -12,7 +12,16 @@
 #                               Also misses UTF8)
 # =====================================================================================
 
-# enable color support of ls and also add handy aliases:
+# Common ls varieties:
+# *************************
+	alias ll='ls -aGl'
+	alias lll='ls -aFGl --group-directories-first'
+	alias la='ls -A'
+	alias l='ls -CF'
+	alias lasort='la --group-directories-first'
+
+
+# Enable color support of ls and also add handy aliases:
 # ******************************************************
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -26,16 +35,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-#  ==== Some more ls aliases ====
-#  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
-	alias ll='ls -aGl'
-	alias lll='ls -aFGl --group-directories-first'
-	alias la='ls -A'
-	alias l='ls -CF'
-	alias lasort='la --group-directories-first'
-
-# Show octal permissions (cp lsdx/lsd- aliases below)
+# Show octal permissions (cf lsdx/lsd- aliases below)
 # ***************************************************
 	alias ls8="ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\"%0o\",k);print}'"
 
@@ -51,7 +52,7 @@ fi
 
 #   alias - --="cd -"           # "--" = return to OLDPWD (if set)
 ### ---------------------------------------------------------------------------------
-### Any alias-names exclusevily using hyphens (minus-signs) is "dangerous"!
+### Any alias-name exclusively using hyphens (minus-signs) is "dangerous"!
 ### Such aliases can't be completely unaliased and forgotten, it seems.
 ###
 ### If an attempt has been made to unalias and/or deleting an alias in
