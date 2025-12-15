@@ -1,5 +1,7 @@
 
-####--- Some useful ls flags ---####
+#  ====  Some useful ls flags  ====
+#  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+
 #   -A  --almost-all            hides . and ..
 #   -G  --no-group              in a long listing, don't print group names (xneb xneb => xneb)
 #   -h  --human-readable        file sizes
@@ -8,8 +10,10 @@
 #   #-v                         natural sort of (version) numbers within text.
 #                               (Lists dotfiles first, and (within groups) Upper-case first.
 #                               Also misses UTF8)
+# =====================================================================================
 
-# enable color support of ls and also add handy aliases
+# enable color support of ls and also add handy aliases:
+# ******************************************************
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 
@@ -22,30 +26,31 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+#  ==== Some more ls aliases ====
+#  WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 
-# some more ls aliases
-# --------------------
-alias ll='ls -aGl'
-alias lll='ls -aFGl --group-directories-first'
-alias la='ls -A'
-alias l='ls -CF'
-alias lasort='la --group-directories-first'
+	alias ll='ls -aGl'
+	alias lll='ls -aFGl --group-directories-first'
+	alias la='ls -A'
+	alias l='ls -CF'
+	alias lasort='la --group-directories-first'
 
 # Show octal permissions (cp lsdx/lsd- aliases below)
-alias ls8="ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\"%0o\",k);print}'"
+# ***************************************************
+	alias ls8="ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf(\"%0o\",k);print}'"
 
-alias lsdx='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size'
-alias lsd-='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size --color never'
+	alias lsdx='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size'
+	alias lsd-='lsd --almost-all --long --permission octal --date +%y%m%d,%X --group-directories-first --total-size --color never'
 
-alias cl=clear
-alias rm="rm -i"            # safety first
-alias p3='python3'
-alias tree='tree -aC'       # Caution! Runaway output if called from high hiarchy levels
-alias ..="cd .."            # go up
-alias ...="cd .. ; cd .."   # go up-up
+	alias cl=clear
+	alias rm="rm -i"            # safety first
+	alias p3='python3'
+	alias tree='tree -aC'       # Caution! Runaway output if called from high hiarchy levels
+	alias ..="cd .."            # go up
+	alias ...="cd .. ; cd .."   # go up-up
 
-#alias - --="cd -"           # "--" = return to OLDPWD (if set)
-###
+#   alias - --="cd -"           # "--" = return to OLDPWD (if set)
+### ---------------------------------------------------------------------------------
 ### Any alias-names exclusevily using hyphens (minus-signs) is "dangerous"!
 ### Such aliases can't be completely unaliased and forgotten, it seems.
 ###
@@ -67,39 +72,50 @@ alias ...="cd .. ; cd .."   # go up-up
 ### That finally stopped bash from trying to look for the nonexistant alias.
 ###
 ### So, better refrain from trying that again.
+### -----------------------------------------------------------------------------------
 
 
 # Show history top-40 list, sorted by popularity
-alias nyss="cd ~/bin/sh/; ./history_unique_commands.sh"
+# **********************************************
+	alias nyss="cd ~/bin/sh/; ./history_unique_commands.sh"
 
 # Watch the syslog-tail
-alias systail='tail -f /var/log/syslog'
+# *********************
+	alias systail='tail -f /var/log/syslog'
 
 # Check if our DNS is still uptodate
-alias testip='cd ~/bin/sh/; ./ip-test_notify-send.sh'
+# **********************************
+	alias testip='cd ~/bin/sh/; ./ip-test_notify-send.sh'
 
 # Check if bash has left any (empty) history.temp-files
-alias tempo="inotifywait -m ~ --format '%w%f %e' -e create"
+# *****************************************************
+	alias tempo="inotifywait -m ~ --format '%w%f %e' -e create"
 
 # Add an "alert" alias for long running commands.  
 # Use like so:  sleep 10; alert
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+# **********************************************
+	alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 # Launch feh in quiet mode
-alias feh='feh -q'
+# ************************
+	alias feh='feh -q'
 
 # Launch Common Lisp (SBCL) via rlwrap (GNU Readline)
-alias lisb='rlwrap -A sbcl'
+# ***************************************************
+	alias lisb='rlwrap -A sbcl'
 
 # Launch Common Lisp via cl-launch
-alias licl='cl-launch'
+# ********************************
+	alias licl='cl-launch'
 
 # Update mime, desktop and icon databases pronto
-alias upupup='update-mime-database ~/.local/share/mime/ && update-desktop-database ~/.local/share/ && gtk-update-icon-cache -f ~/.local/share/icons/HumHum/ && echo "As was the mime and desktop databases, evidently!"' 
+# **********************************************
+	alias upupup='update-mime-database ~/.local/share/mime/ && update-desktop-database ~/.local/share/ && gtk-update-icon-cache -f ~/.local/share/icons/HumHum/ && echo "As was the mime and desktop databases, evidently!"' 
 
 # Add zenity alias to make the annoying terminal error message disappear forever:
 # "Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged."
-alias zenity="zenity 2>/dev/null"
+# *******************************************************************************
+	alias zenity="zenity 2>/dev/null"
 
 
 # ---------------------------------------------------------------------------------------------------
@@ -124,6 +140,6 @@ alias zenity="zenity 2>/dev/null"
 #  -U, --no-sort                  Do not sort. List entries in directory order
 #  -r, --reverse                  Reverse the order of the sort
 #      --group-directories-first  Groups the directories at the top before the files. Same as --group-dirs=first
-
+# ---------------------------------------------------------------------------------------------------
 
 

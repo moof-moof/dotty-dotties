@@ -46,6 +46,40 @@ fi
 GTK_SILENT=1
 
 
-# Delete any and all .bash_history-12345.tmp files.
-# **************************************************************
-rm --interactive=never /home/xneb/.bash_history-*.tmp
+#  ___________________________________________________________________
+# |
+# | Delete any and all .bash_history-*.tmp files.
+# | 
+# | We present two equally robust versions:
+# | Variant 1 uses single brackets and quoted variable, while
+# | variant 2 uses double brackets and unquoted variable.
+# | Use of double brackets are specific to bash, so for other shells
+# | make sure to have the #!/bin/bash shebang in the script header.
+# | 
+# | Option -f (--force) avoids fatal hangs in the login process
+# | by making rm ignore nonexistent files.
+# |
+# | Also, in case the specified file does exist, -f prevents hangs 
+# | caused by the "safety prompt" (rm="rm -i") awaiting feed-back,
+# | like this:
+# | "rm: ta bort normal fil '/home/xneb/.bash_history-12345.tmp'?"
+# |___________________________________________________________________
+
+# *********************************************************************
+file="$HOME/.bash_history-*.tmp"
+
+# ------------------------------ variant 1:
+if [ "$file" ] ; then
+    rm -f $file
+fi
+
+# ------------------------------ variant 2:
+#if [[ $file ]] ; then  
+#    rm -f $file
+#fi
+
+# *********************************************************************
+
+
+
+
