@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="inode/symlink">
+		<comment>Symbolic link</comment>
+		<comment xml:lang="sv">Symbolisk länk</comment>
+		<generic-icon name="inode-symlink"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="inode/socket">
+		<comment>Socket</comment>
+		<comment xml:lang="sv">Uttag</comment>
+		<generic-icon name="inode-socket"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="inode/fifo">
+		<comment>Pipe</comment>
+		<comment xml:lang="sv">Rör</comment>
+		<generic-icon name="inode-fifo"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="inode/chardevice">
+		<comment>Character device</comment>
+		<comment xml:lang="sv">Teckenenhet</comment>
+		<generic-icon name="inode-chardevice"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="inode/blockdevice">
+		<comment>Block device</comment>
+		<comment xml:lang="sv">Blockenhet</comment>
+		<generic-icon name="inode-blockdevice"/>
+	</mime-type>
+</mime-info>
+

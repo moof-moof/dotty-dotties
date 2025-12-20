@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/gpx+xml">
+      <comment>GPX geographic data</comment>
+      <comment xml:lang="sv">GPX geografisk data</comment>
+      <acronym>GPX</acronym>
+      <expanded-acronym>GPS Exchange Format</expanded-acronym>
+      <sub-class-of type="application/xml"/>
+      <!-- <generic-icon name="application-gpx"/> -->
+      <generic-icon name="text-xml"/>
+      <alias type="application/gpx"/>
+      <alias type="application/x-gpx+xml"/>
+      <alias type="application/x-gpx"/>
+      <glob pattern="*.gpx"/>
+  </mime-type>
+</mime-info>

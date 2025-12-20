@@ -50,7 +50,7 @@ fi
 	alias ..="cd .."            # go up
 	alias ...="cd .. ; cd .."   # go up-up
 
-#   alias - --="cd -"           # "--" = return to OLDPWD (if set)
+### alias --="cd -"           # "--" = return to OLDPWD (if set)
 ### ---------------------------------------------------------------------------------
 ### Any alias-name exclusively using hyphens (minus-signs) is "dangerous"!
 ### Such aliases can't be completely unaliased and forgotten, it seems.

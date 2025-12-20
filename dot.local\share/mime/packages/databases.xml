@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="application/sql">
+		<comment>SQL code</comment>
+		<comment xml:lang="sv">SQL-kod</comment>
+		<generic-icon name="text-x-sql"/>
+		<sub-class-of type="text/plain"/>
+		<glob pattern="*.sql"/>
+		<alias type="text/x-sql"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/x-sqlite2">
+		<comment>SQLite2 database</comment>
+		<comment xml:lang="sv">SQLite2-databas</comment>
+		<generic-icon name="text-x-sql"/>
+		<glob pattern="*.sqlite2"/>
+		<alias type="text/x-sql"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/x-lmdb">
+		<comment>LMDB database</comment>
+		<comment xml:lang="sv">LMDB-databas</comment>
+		<acronym>LMDB</acronym>
+		<expanded-acronym>Lightning Memory-Mapped Database</expanded-acronym>
+		<generic-icon name="text-x-sql"/>
+		<magic>
+			<match offset="16" type="little32" value="0xBEEFC0DE"/>
+		</magic>
+		<glob pattern="*.mdb"/>
+		<glob pattern="*.lmdb"/>
+		<alias type="text/x-sql"/>
+	</mime-type> 
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/vnd.ms-access">
+		<comment>JET database</comment>
+		<comment xml:lang="sv">JET-databas</comment>
+		<acronym>JET</acronym>
+		<expanded-acronym>Joint Engine Technology</expanded-acronym>
+		<generic-icon name="application-accdb"/>"/>
+		<magic>
+			<match offset="0" type="string" value="\x00\x01\x00\x00Standard Jet DB"/>
+		</magic>
+		<glob pattern="*.mdb" weight="60"/>
+		<alias type="application/msaccess"/>
+		<alias type="application/vnd.msaccess"/>
+		<alias type="application/x-msaccess"/>
+		<alias type="application/accdb"/>
+		<alias type="application/mdb"/>
+		<alias type="application/x-mdb"/>
+		<alias type="zz-application/zz-winassoc-mdb"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz 
+	<mime-type type="application/vnd.oasis.opendocument.database">
+		<comment>ODB database</comment>
+		<comment xml:lang="sv">ODB-databas</comment>
+		<acronym>ODB</acronym>
+		<expanded-acronym>OpenDocument Database</expanded-acronym>
+		<sub-class-of type="application/zip"/>
+		<generic-icon name="text-x-sql"/>
+		<magic priority="70">
+			<match type="string" value="PK\003\004" offset="0">
+				<match type="string" value="mimetype" offset="30">
+					<match type="string" value="application/vnd.oasis.opendocument.base" offset="38"/>
+					</match>
+				</match>
+			</match>
+		</magic>
+		<glob pattern="*.odb"/>
+		<alias type="application/vnd.sun.xml.base"/>
+	</mime-type>
+    zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/vnd.dbf">
+		<comment>Xbase document</comment>
+		<comment xml:lang="sv">Xbase-dokument</comment>
+		<generic-icon name="application-x-dbase"/>
+		<glob pattern="*.dbf"/>
+		<alias type="application/dbase"/>
+		<alias type="application/dbf"/>
+		<alias type="application/x-dbase"/>
+		<alias type="application/x-dbf"/>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/x-gdbm">
+		<comment>GDBM database</comment>
+		<comment xml:lang="sv">GDBM-databas</comment>
+		<acronym>GDBM</acronym>
+		<expanded-acronym>GNU Database Manager</expanded-acronym>
+		<generic-icon name="application-x-gdbm"/>
+		<magic>
+			<match type="big32" value="0x13579ace" offset="0"/>
+			<match type="little32" value="0x13579ace" offset="0"/>
+			<match type="string" value="GDBM" offset="0"/>
+		</magic>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/sparql-query">
+		<comment>SPARQL query</comment>
+		<comment xml:lang="sv">SPARQL-fråga</comment>
+		<expanded-acronym>SPARQL Protocol and RDF Query Language</expanded-acronym>
+		<generic-icon name="text-x-sql"/>
+		<glob pattern="*.qs"/>
+		<magic priority="40">
+			<match type="string" value="PREFIX" offset="0"/>
+		</magic>
+	</mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/sparql-results+xml">
+		<comment>SPARQL query results</comment>
+		<comment xml:lang="sv">SPARQL-frågeresultat</comment>
+		<acronym>SPARQL</acronym>
+		<expanded-acronym>SPARQL Protocol and RDF Query Language</expanded-acronym>
+		<root-XML namespaceURI="http://www.w3.org/2005/sparql-results#" localName="sparql"/>
+		<sub-class-of type="application/xml"/>
+		<generic-icon name="text-x-generic"/>
+		<glob pattern="*.srx"/>
+	</mime-type>
+</mime-info>
+
