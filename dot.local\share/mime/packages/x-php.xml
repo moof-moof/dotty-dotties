@@ -9,7 +9,7 @@
         </magic>
 		<glob pattern="*.php"/>
 		<glob pattern="*.php*"/>
-		<alias type="gnome-mime-application-x-php"/>
+<!-- 		<alias type="gnome-mime-application-x-php"/> -->
 		<alias type="text/x-php"/>
 	</mime-type>
 </mime-info>

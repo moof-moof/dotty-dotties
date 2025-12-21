@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/cache-octet-stream">
+        <comment>Unknown</comment>
+        <comment xml:lang="sv">Binär-cache (octet-stream)</comment>
+        <sub-class-of type="application/octet-stream"/>
+		<generic-icon name="application-cache-octet-stream"/>
+        <glob pattern="*.cache"/>
+    </mime-type>
+</mime-info>

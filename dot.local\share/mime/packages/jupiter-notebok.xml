@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="application/x-ipynb+json">
+		<comment>Jupyter notebook document</comment>
+		<comment xml:lang="sv">Jupyter-anteckningsboksdokument</comment>
+		<sub-class-of type="application/json"/>
+		<generic-icon name="application-x-ipynb+json"/>
+		<magic>
+			<match type="string" value="{" offset="0">
+				<match type="string" value="&quot;cells&quot;:" offset="1:256"/>
+			</match>
+		</magic>
+		<glob pattern="*.ipynb"/>
+	</mime-type>
+</mime-info>

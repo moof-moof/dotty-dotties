@@ -14,7 +14,7 @@
 		</magic>
 		<glob pattern="*.xhtml"/>
 		<glob pattern="*.xht"/>
-        <alias type="gnome-mime-application-xhtml+xml"/> 
+<!--    <alias type="gnome-mime-application-xhtml+xml"/>  -->
 		<root-XML namespaceURI="http://www.w3.org/1999/xhtml" localName="html"/>
 	</mime-type>
 </mime-info>

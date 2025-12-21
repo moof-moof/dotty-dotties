@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="application/gml+xml">
+        <comment>GML document</comment>
+        <comment xml:lang="sv">GML-dokument</comment>
+        <generic-icon name="application-gml+xml"/>
+        <acronym>GML</acronym>
+        <expanded-acronym>Geography Markup Language</expanded-acronym>
+        <glob pattern="*.gml"/>
+        <sub-class-of type="application/xml"/>
+    </mime-type>
+</mime-info>

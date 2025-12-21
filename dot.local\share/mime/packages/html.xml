@@ -29,9 +29,9 @@
 		</magic>
 		<glob pattern="*.html" weight="80"/>
 		<glob pattern="*.htm" weight="80"/>
-        <alias type="gnome-mime-text-html"/> 
-		<alias type="html"/>
-		<alias type="www"/>
+<!--    <alias type="gnome-mime-text-html"/>  -->
+<!-- 	<alias type="html"/>
+		<alias type="www"/>                   -->
 	</mime-type>
 </mime-info>
 

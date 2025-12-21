@@ -6,8 +6,7 @@
       <acronym>GPX</acronym>
       <expanded-acronym>GPS Exchange Format</expanded-acronym>
       <sub-class-of type="application/xml"/>
-      <!-- <generic-icon name="application-gpx"/> -->
-      <generic-icon name="text-xml"/>
+      <generic-icon name="application-gpx+xml"/>
       <alias type="application/gpx"/>
       <alias type="application/x-gpx+xml"/>
       <alias type="application/x-gpx"/>
