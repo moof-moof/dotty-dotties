@@ -3,7 +3,7 @@
    viewBox="0 0 51 64"
    version="1.1"
    id="svg18"
-   sodipodi:docname="text-x-sql.svg"
+   sodipodi:docname="data_base_icon-04d.svg"
    width="51"
    height="64"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="11.313708"
-     inkscape:cx="24.041631"
-     inkscape:cy="31.422058"
-     inkscape:window-width="1570"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="32.703689"
+     inkscape:cy="53.209786"
+     inkscape:window-width="1875"
      inkscape:window-height="1326"
-     inkscape:window-x="882"
-     inkscape:window-y="48"
+     inkscape:window-x="461"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg18"
      showguides="false" />
@@ -118,23 +118,24 @@
   </g>
   <g
      id="g2366"
-     transform="translate(-5.2374369,3.1932425)">
+     transform="translate(-5.2374369,3.1932425)"
+     style="fill:#00de23;fill-opacity:1;stroke:#00de23;stroke-opacity:1">
     <ellipse
-       style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765442"
+       style="fill:#00de23;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765442;stroke:#00de23;stroke-opacity:1"
        id="path297"
        cx="26.111624"
        cy="38.128189"
        rx="1.9850551"
        ry="1.8973844" />
     <ellipse
-       style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765442"
+       style="fill:#00de23;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765442;stroke:#00de23;stroke-opacity:1"
        id="ellipse2359"
        cx="26.111624"
        cy="51.7435"
        rx="1.9850551"
        ry="1.8973844" />
     <ellipse
-       style="fill:#696969;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765442"
+       style="fill:#00de23;fill-opacity:1;fill-rule:evenodd;stroke-width:0.765442;stroke:#00de23;stroke-opacity:1"
        id="ellipse2361"
        cx="26.111624"
        cy="24.491924"

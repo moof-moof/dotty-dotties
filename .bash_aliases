@@ -46,10 +46,11 @@ fi
 	alias cl=clear
 	alias rm="rm -i"            # safety first
 	alias p3='python3'
-	alias tree='tree -aC'       # Caution! Runaway output if called from high hiarchy levels
+	alias tree='tree -aC'       # Caution! Runaway output if called from high hierarchy levels
 	alias ..="cd .."            # go up
 	alias ...="cd .. ; cd .."   # go up-up
-
+	
+### ---------------------------------------------------------------------------------
 ### alias --="cd -"           # "--" = return to OLDPWD (if set)
 ### ---------------------------------------------------------------------------------
 ### Any alias-name exclusively using hyphens (minus-signs) is "dangerous"!
