@@ -45,25 +45,54 @@
 #-------------------------------------------------------------------------------
 
 
+application/cache-octet-stream			cache
+application/gml+xml			            gml
+application/gpx+xml			            gpx
+application/sparql-query			    qs
+application/sparql-results+xml			srx
+application/sql			                sql
+application/vnd.dbf			            dbf
+application/vnd.google-earth.kml+xml    kml
+application/xhtml+xml		            xht xhtml			
+application/x-ipynb+json			    ipynb
+application/x-lmdb			            lmdb mdb
+application/xml			                rng	xbl	xml	xsd
+application/x-php			            php php*
+application/x-python-bytecode			pyc pyo
+application/x-shellscript     		    sh
+application/x-sqlite2			        sqlite2
+application/yaml			            yaml yml
+text/gcode			    cnc gc gco gcode nc ngc
+text/html			    htm html
+text/markdown			markdown md mkd
+text/text-csv			csv
+text/x-arduino			ino pde
+text/x-chdr			    h
+text/x-common-lisp	    lisp lsp asd fasl ros el
+text/x-copying          copying license
+text/x-copying          COPYING LICENSE
+text/x-csrc			    c
+text/x-forth			4thf forth fr frt fs fth
+text/x-gcode			cnc gc gco gcode nc ngc
+text/x.gcode			nocigar
+text/x-log			    log log* log.1 logg
+text/x-nfo			    inf info info* info.txt nfo
+text/x-nfo				INFO* INFO.txt nfo inf info
+text/x-python3			py py3 py3x pyi
+text/x-python			py pyx wsgi
+text/x-readme           readme* readme.md readme.txt
+text/x-readme			README* README.text README.md
+text/x-rst			    rst
+text/x-sh				sh
+text/x-texinfo			texi texinfo
 
-text/gcode							gcode gco gc nc ngc cnc
-text/x-gcode						gcode gco gc nc ngc cnc
-text/x-nocigar						nocigar
-text/x-readme						README* README.text README.md
-text/markdown						md mkd markdown
-text/x-arduino  					ino pde
-text/x-sh							sh
-application/x-shellscript     		sh
-text/x-texinfo						texi texinfo
-text/x-nfo							INFO* INFO.txt nfo inf info
-text/text-csv						csv
-text/x-common-lisp					lisp lsp asd fasl ros el
 
 
-application/x-netcdf        		cdf
+application/x-netcdf      					cdf
 
 ## Possibly not needed anymore?:
-application/x-neo-geo-pocket-rom		oxo
-application/x-neo-geo-pocket-color-rom	oxo
+#  ----------------------------
+application/x-neo-geo-pocket-rom			oxo
+application/x-neo-geo-pocket-color-rom		oxo
 
 
