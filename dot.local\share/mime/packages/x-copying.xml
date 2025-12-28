@@ -1,0 +1,12 @@
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="text/x-copying">
+            <comment>License terms</comment>
+            <comment xml:lang="sv">Licensvillkor</comment>
+            <sub-class-of type="text/plain"/>
+  		    <generic-icon name="text-x-copying"/>
+            <glob pattern="COPYING"/>
+            <glob pattern="copying"/>
+            <glob pattern="LICENSE"/>
+            <glob pattern="license"/>
+    </mime-type>
+</mime-info>

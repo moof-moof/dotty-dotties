@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2726"
+   width="24"
+   height="24"
+   viewBox="-1 0 24 24"
+   sodipodi:docname="text-x-copying.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2730" />
+  <sodipodi:namedview
+     id="namedview2728"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="true"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="16.000001"
+     inkscape:cx="3.9687498"
+     inkscape:cy="16.906249"
+     inkscape:window-width="2560"
+     inkscape:window-height="1358"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2732"
+     showguides="false"
+     borderlayer="true"
+     showborder="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2100"
+       units="px"
+       snapvisiblegridlinesonly="false"
+       dotted="false"
+       originx="31.996066"
+       originy="31.976223"
+       empcolor="#f109e5"
+       empopacity="0.30196078" />
+  </sodipodi:namedview>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g2732"
+     style="display:inline"
+     transform="translate(7.9960658,7.976223)">
+    <g
+       id="g5897"
+       style="display:inline;image-rendering:optimizeSpeed"
+       transform="matrix(0.50061185,0,0,0.4993666,-7.9396041,-7.9730209)">
+      <path
+         id="path2274"
+         style="display:inline;fill:#fdf6e3;fill-opacity:1;stroke-width:1.32648"
+         d="M 4.5336965,9.0935568 13.025039,0.58344493 39.06382,0.56105957 39.226712,47.359037 4.7020319,47.364097 Z"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="display:inline;fill:#000000;fill-opacity:1"
+         d="M 4.0033767,48.000123 C 3.9673806,34.488739 3.9896263,22.257741 3.9949851,8.7463124 6.5230938,6.2776808 10.108181,2.4622196 12.636289,-0.00641234 L 25.669718,0 c 7.739587,0.00380781 14.06766,-0.00305422 14.06766,-0.00305422 0,0 -0.007,26.11453122 -0.0082,48.04939622 -19.659403,0.0062 -19.75959,-0.02629 -35.7214022,-0.02629 z M 38.222838,1.1028072 c -5.048533,0 -16.985052,-0.1055363 -24.386755,-0.1055363 l 0.06343,8.8910519 c -2.918375,-0.016545 -5.9548924,0.030173 -8.8732546,0.050124 0,0 -0.00665,36.4839222 0.00112,37.0677342 14.0796116,-0.01648 15.2789246,-0.01368 33.5848996,0.029 0.07393,-23.018432 0.0745,-23.335591 0.02934,-45.9274841 z"
+         id="path2855"
+         sodipodi:nodetypes="cccscccccccccccc" />
+      <path
+         id="path2115"
+         style="display:inline;fill:#fdf6e3;fill-opacity:1"
+         inkscape:transform-center-x="-0.046642038"
+         inkscape:transform-center-y="-1.4885397"
+         d="M 12.870243,8.9664412 5.1666106,8.9788893 12.843157,1.1849755 Z"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <g
+       id="g6110"
+       transform="matrix(0.38760923,0,0,0.40747635,-5.7797661,-6.3204944)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:'Motley Forces';-inkscape-font-specification:'Motley Forces';fill:#2d2d2d;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         x="5.3670483"
+         y="43.340622"
+         id="text292"><tspan
+           sodipodi:role="line"
+           id="tspan290"
+           x="5.3670483"
+           y="43.340622">©</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;font-family:'Motley Forces';-inkscape-font-specification:'Motley Forces';fill:#fdf6e3;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         x="4.108839"
+         y="42.432701"
+         id="text400"><tspan
+           sodipodi:role="line"
+           id="tspan398"
+           x="4.108839"
+           y="42.432701">©</tspan></text>
+    </g>
+  </g>
+</svg>
