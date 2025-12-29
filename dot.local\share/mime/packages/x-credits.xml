@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+    <mime-type type="text/x-credits">
+        <comment>Author credits</comment>
+        <comment xml:lang="sv">Författarlista</comment>
+        <sub-class-of type="text/plain"/>
+        <generic-icon name="text-x-credits"/>
+        <glob pattern="CREDITS"/>
+    </mime-type>
+</mime-info>
