@@ -17,6 +17,19 @@
 		<alias type="text/x-sql"/>
 	</mime-type>
 <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+	<mime-type type="application/vnd.sqlite3">
+        <comment>SQLite3 database</comment>
+        <comment xml:lang="sv">SQLite3-databas</comment>
+        <generic-icon name="text-x-sql"/>
+        <glob pattern="*.sqlite3"/>
+        <glob pattern="*.db"/>
+        <magic>
+            <match type="string" value="SQLite format 3" offset="0"/>
+        </magic>
+        <alias type="application/x-sqlite3"/>
+		<alias type="text/x-sql"/>
+    </mime-type>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
 	<mime-type type="application/x-lmdb">
 		<comment>LMDB database</comment>
 		<comment xml:lang="sv">LMDB-databas</comment>

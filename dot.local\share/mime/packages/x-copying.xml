@@ -4,9 +4,13 @@
             <comment xml:lang="sv">Licensvillkor</comment>
             <sub-class-of type="text/plain"/>
   		    <generic-icon name="text-x-copying"/>
-            <glob pattern="COPYING"/>
-            <glob pattern="copying"/>
-            <glob pattern="LICENSE"/>
-            <glob pattern="license"/>
+            <glob pattern="COPYING*"/>
+            <glob pattern="COPYING.md"/>
+            <glob pattern="COPYING.txt"/>
+            <glob pattern="copying*"/>
+            <glob pattern="LICENSE*"/>
+            <glob pattern="LICENSE.md"/>
+            <glob pattern="LICENSE.txt"/>
+            <glob pattern="license*"/>
     </mime-type>
 </mime-info>

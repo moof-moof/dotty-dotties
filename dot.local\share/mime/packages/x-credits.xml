@@ -5,6 +5,6 @@
         <comment xml:lang="sv">Författarlista</comment>
         <sub-class-of type="text/plain"/>
         <generic-icon name="text-x-credits"/>
-        <glob pattern="CREDITS"/>
+        <glob pattern="CREDITS.*"/>
     </mime-type>
 </mime-info>
