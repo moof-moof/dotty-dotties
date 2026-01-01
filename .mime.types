@@ -53,6 +53,12 @@ application/sparql-results+xml			srx
 application/sql			                sql
 application/vnd.dbf			            dbf
 application/vnd.google-earth.kml+xml    kml
+application/vnd.ms-access
+application/vnd.sqlite3                 sqlite3
+application/x-extension-keyring
+application/x-extension-qm
+application/x-extension-xsession-errors
+application/x-gdbm                      gdbm
 application/xhtml+xml		            xht xhtml			
 application/x-ipynb+json			    ipynb
 application/x-lmdb			            lmdb mdb
@@ -62,6 +68,12 @@ application/x-python-bytecode			pyc pyo
 application/x-shellscript     		    sh
 application/x-sqlite2			        sqlite2
 application/yaml			            yaml yml
+audio/x-mod
+inode/blockdevice
+inode/chardevice
+inode/fifo
+inode/socket
+inode/symlink
 text/gcode			    cnc gc gco gcode nc ngc
 text/html			    htm html
 text/markdown			markdown md mkd
@@ -69,17 +81,16 @@ text/text-csv			csv
 text/x-arduino			ino pde
 text/x-chdr			    h
 text/x-common-lisp	    lisp lsp asd fasl ros el
-text/x-copying          copying license
-text/x-copying          COPYING LICENSE
+text/x-copying          copying license COPYING LICENSE
+text/x-credits          CREDITS credits
 text/x-csrc			    c
 text/x-forth			4thf forth fr frt fs fth
 text/x-gcode			cnc gc gco gcode nc ngc
 text/x.gcode			nocigar
 text/x-log			    log log* log.1 logg
-text/x-nfo			    inf info info* info.txt nfo
-text/x-nfo				INFO* INFO.txt nfo inf info
-text/x-python3			py py3 py3x pyi
+text/x-nfo			    inf info info* INFO* info.txt INFO.txt nfo
 text/x-python			py pyx wsgi
+text/x-python3			py py3 py3x pyi
 text/x-readme           readme* readme.md readme.txt
 text/x-readme			README* README.text README.md
 text/x-rst			    rst

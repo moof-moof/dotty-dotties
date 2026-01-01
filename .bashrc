@@ -79,6 +79,14 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 
+
+#	 ____  ____  _ 
+#	|  _ \/ ___|/ |
+#	| |_) \___ \| |
+#	|  __/ ___) | |
+#	|_|   |____/|_|
+#              
+
 # BACKUP AV FUNGERANDE KONFIG UTAN RADBRYTNINGAR I PROMPTEN:
 # ****************************----**************************
 ###>>>### if [ "$color_prompt" = yes ]; then
@@ -86,12 +94,25 @@ fi
 
 #  FUNGERANDE KONFIG MED RADBRYTNINGAR:
 # *************************************
+###>>>### if [ "$color_prompt" = yes ]; then
+###>>>###     PS1='${debian_chroot:+($debian_chroot)}\n\[\033[00;31m\]\u\[\033[01;33m\]@\[\033[00;33m\]\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]\[\e[0m\]\n$ '
+###>>>### else
+###>>>###     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+###>>>### fi
+###>>>### unset color_prompt force_color_prompt
+
+#  FUNGERANDE KONFIG MED SNABEL OCH RADBRYTNINGAR:
+# ************************************************
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\n\[\033[00;31m\]\u\[\033[01;33m\]@\[\033[00;33m\]\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]\[\e[0m\]\n$ '
+#    PS1='${debian_chroot:+($debian_chroot)}\n╭─[\[\033[00;31m\]\u\[\033[01;33m\]@\[\033[00;33m\]\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]]\[\e[0m\]\n╰──⇢{\l\e[1m\]\$\[\e[0m\] '
+    PS1='${debian_chroot:+($debian_chroot)}\n╭─[\[\033[00;31m\]\u\[\033[01;33m\]@\[\033[00;33m\]\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[00m\]]\[\e[0m\]\n╰──⇢{\[\e[33;104m\]\e[1m\]\l\$\[\e[0m\] '  
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+	PS1='${debian_chroot:+($debian_chroot)}\n╭─[\u@\h:\w]\n╰──⇢{\$ '
 fi
 unset color_prompt force_color_prompt
+
+
+
 
 
 # If this is an xterm set the title to user@host:dir
