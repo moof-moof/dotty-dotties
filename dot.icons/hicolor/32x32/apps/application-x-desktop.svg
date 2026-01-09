@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg3447"
+   sodipodi:docname="application-x-desktop_32.svg"
+   viewBox="0 0 32 32"
+   sodipodi:version="0.32"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   width="32"
+   height="32"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2617" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1536"
+     pagecolor="#ffffff"
+     inkscape:zoom="8"
+     inkscape:window-x="655"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="g3457"
+     inkscape:cx="27.5625"
+     inkscape:cy="42.3125"
+     inkscape:window-y="208"
+     inkscape:window-height="1052"
+     inkscape:pageopacity="0.0"
+     inkscape:showpageshadow="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-maximized="0" />
+  <g
+     id="g3457"
+     transform="matrix(0.21,0,0,0.21,-0.27722,-0.38294333)">
+    <path
+       id="path3459"
+       style="fill:#000000;stroke:#ffffff;stroke-width:0.86686"
+       d="m 20.573144,4.6975131 c -0.10585,0 -0.211235,5e-4 -0.31615,0.0015 C 9.9315594,4.8071981 4.1344784,10.240183 4.1344784,21.225528 V 135.61846 c 0,10.37902 5.318491,15.81505 15.8330106,15.81505 H 135.04652 c 10.51427,0 15.84014,-5.1641 15.84014,-15.81505 V 21.225678 c 0,-10.82631 -5.32587,-16.5281649 -16.1711,-16.5281649 -38.045776,0.215655 -76.097476,-0.31571 -114.142416,0 z"
+       sodipodi:nodetypes="cssssssscc" />
+    <path
+       id="path3461"
+       style="fill:#ffffff;stroke-width:0.25"
+       d="m 31.949294,64.846316 45.05,-45.049998 45.049996,45.049998 v 29.7125 l -34.267496,-34.265 v 67.332504 h -21.805 V 60.531316 l -34.08,34.08 z" />
+  </g>
+  <metadata
+     id="metadata2614">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:date>2009-06-19T13:10:14</dc:date>
+        <dc:description>Set of international airport symbols. Source: http://www.aiga.org/content.cfm/symbol-signs Converted to SVG by Jean-Victor Balin.</dc:description>
+        <dc:source>https://openclipart.org/detail/26729/aiga-up-arrow-bg-by-anonymous</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>aiga</rdf:li>
+            <rdf:li>aiga bg</rdf:li>
+            <rdf:li>arrow</rdf:li>
+            <rdf:li>externalsource</rdf:li>
+            <rdf:li>map symbol</rdf:li>
+            <rdf:li>sign</rdf:li>
+            <rdf:li>silhouette</rdf:li>
+            <rdf:li>symbol</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
