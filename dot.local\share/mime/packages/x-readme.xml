@@ -7,6 +7,9 @@
   		<glob weight="100" pattern="README*"/>
   		<glob weight="100" pattern="README.md"/>
   		<glob weight="100" pattern="README.txt"/>
+  		<glob weight="100" pattern="LÄSMEJ*"/>
+  		<glob weight="100" pattern="LÄSMEJ.md"/>
+  		<glob weight="100" pattern="LÄSMEJ.txt"/>
   		<alias type="text/readme"/>
 	</mime-type>
 </mime-info>
