@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: https://ezgif.com/png-to-svg -->
+
+<svg
+   width="24"
+   height="24"
+   version="1.1"
+   id="svg473"
+   sodipodi:docname="text-gcode.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="32"
+     inkscape:cx="12.515625"
+     inkscape:cy="18.171875"
+     inkscape:window-width="1570"
+     inkscape:window-height="1326"
+     inkscape:window-x="625"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg473" />
+  <defs
+     id="defs477" />
+  <path
+     d="M 2.9915765,0.0110014 16.879126,0 21,4.233 V 24 L 3.0111506,23.970873 Z"
+     fill="#e4f3fb"
+     id="path463"
+     style="display:inline;stroke-width:0.374997"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     d="M 2.9851486,0 H 16.879126 L 21,4.233 V 24 H 2.984446 Z m 0.7719888,0.75 -0.00581,22.5 H 20.25 v -18 h -4.5 v -4.5 z"
+     id="path465"
+     style="stroke-width:6.375;stroke-dasharray:none"
+     sodipodi:nodetypes="ccccccccccccc" />
+  <path
+     d="m 4.4687499,2.25 h 4.875 V 3 h -1.124996 v 1.125 h 0.374996 v 0.75 h 0.375004 V 6 h 0.374996 v 1.125003 h 0.375003 v 0.75 H 10.09375 V 7.5 h 0.375003 V 6.75 H 10.84375 V 5.625003 h 0.375003 V 4.5 H 11.59375 V 4.125 h 0.375003 V 3 H 10.84375 V 2.25 h 3.375003 V 3 h -0.75 V 3.375 H 13.09375 v 0.75 h -0.375003 v 0.75 H 12.34375 V 6 H 11.968753 V 6.75 H 11.59375 V 7.875003 H 11.218747 V 8.624997 H 10.84375 V 9.75 H 10.468753 V 10.5 H 10.09375 v 1.125003 H 9.7187529 v 0.75 H 9.3437499 V 13.5 h -0.374996 v 0.375003 H 8.5937499 V 14.25 h -0.374996 v 0.375003 H 7.8437499 V 15 h -2.25 v -0.374997 h -0.375 V 14.25 h -0.375 v -1.124997 h 0.375 V 12.75 h 0.375 v -0.375003 h 0.75 V 12.75 h 0.375 v 1.125003 h 1.125 v -0.75 h 0.375004 v -0.75 h 0.374996 v -0.75 h 0.375004 V 11.25 h -0.75 V 10.5 H 7.8437499 V 9.375003 h -0.375 V 8.25 h -0.375 V 7.125003 h -0.375 V 6 h -0.375 V 4.875 h -0.375 V 3.75 h -0.375 V 3.375 h -0.375 V 3 h -0.75 z"
+     fill="#e1262f"
+     id="path467"
+     style="stroke-width:0.374997"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <path
+     d="m 10.468753,12.75 h 4.124997 v 0.75 h -0.375003 v 1.125003 H 14.59375 V 15 h 0.375003 v 0.375003 h 0.75 V 15 h 0.374997 v -0.374997 h 0.375003 V 13.5 H 16.09375 v -0.75 h 3 v 0.75 h -0.75 v 0.375003 H 17.968753 V 14.25 H 17.59375 V 15 h -0.374997 v 0.375003 H 16.84375 V 15.75 h -0.374997 v 0.375003 H 16.09375 V 17.25 h 0.375003 v 0.375003 h 0.374997 v 0.75 h 0.375003 V 18.75 h 0.374997 v 0.75 h 0.375003 v 0.375003 h 0.374997 v 0.75 h 0.375003 V 21 h 0.75 v 0.75 h -4.5 V 21 h 0.75 V 20.25 H 15.34375 v -0.375003 h -0.375003 v -0.75 H 14.59375 V 18.75 h -0.75 v 0.75 h -0.375003 v 0.375003 H 13.09375 V 20.25 H 12.718747 V 21 h 0.75 v 0.75 H 10.09375 V 21 h 0.75 v -0.374997 h 0.375003 V 20.25 h 0.374997 v -0.375003 h 0.375003 V 19.5 h 0.374997 v -0.75 h 0.375003 V 18.374997 H 13.09375 V 18 h 0.375003 V 17.25 H 13.09375 V 16.5 H 12.718747 V 16.125003 H 12.34375 v -0.75 H 11.968753 V 15 H 11.59375 V 14.25 H 11.218753 V 13.875003 H 10.84375 V 13.5 h -0.374997 z"
+     fill="#088408"
+     id="path469"
+     style="stroke-width:0.374997"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <path
+     d="M 16.5,0.742739 17.25,1.5 19.5,3.75 20.242923,4.5 H 16.5 Z"
+     fill="#e5f6ff"
+     id="path471"
+     style="stroke-width:0.374997"
+     sodipodi:nodetypes="cccccc" />
+</svg>
