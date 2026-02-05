@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+  <mime-type type="image/vnd.dwg">
+    <comment>AutoCAD Drawing</comment>
+    <comment xml:lang="sv">Cad-ritning</comment>
+    <glob pattern="*.dwg"/>
+    <generic-icon name="image-vnd.dwg"/>  
+  </mime-type>
+</mime-info>

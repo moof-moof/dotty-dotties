@@ -10,12 +10,17 @@ application/typescript text/javascript
 application/vnd.msaccess application/vnd.ms-access
 application/x-dbase application/vnd.dbf
 application/x-dbf application/vnd.dbf
+application/x-eagle-schematic application/x-eagle-schematic
+application/x-eeschema-schematic application/x-eagle-schematic
+application/x-geda-schematic application/x-eagle-schematic
 application/x-gnome-app-info application/x-desktop
 application/x-gpx application/gpx+xml
 application/x-gpx+xml application/gpx+xml
 application/x-javascript text/javascript
+application/x-kicad-schematic application/x-eagle-schematic
 application/x-kml application/vnd.google-earth.kml+xml
 application/x-kml+xml application/vnd.google-earth.kml+xml
+application/x-lepton-schematic application/x-eagle-schematic
 application/x-mdb application/vnd.ms-access
 application/x-msaccess application/vnd.ms-access
 application/x-perl6 application/x-raku

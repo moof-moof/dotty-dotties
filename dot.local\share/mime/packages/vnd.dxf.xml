@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+  <mime-type type="image/vnd.dxf">
+    <comment>CAD Drawing Exchange Format vector image</comment>
+    <comment xml:lang="sv">Cad-ritning i DXF-format</comment>
+    <glob pattern="*.dxf"/>
+    <generic-icon name="image-vnd.dxf"/>  
+  </mime-type>
+</mime-info>

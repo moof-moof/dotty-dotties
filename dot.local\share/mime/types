@@ -10,6 +10,7 @@ application/vnd.ms-access
 application/vnd.oasis.opendocument.graphics-template
 application/vnd.sqlite3
 application/x-desktop
+application/x-eagle-schematic
 application/x-extension-keyring
 application/x-extension-qm
 application/x-extension-xsession-errors
@@ -25,6 +26,8 @@ application/xhtml+xml
 application/xml
 application/yaml
 audio/x-mod
+image/vnd.dwg
+image/vnd.dxf
 inode/blockdevice
 inode/chardevice
 inode/fifo

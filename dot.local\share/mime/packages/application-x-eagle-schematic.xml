@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+    <mime-type type="application/x-eagle-schematic">
+        <comment>EAGLE Schematics CAD</comment>
+        <comment xml:lang="sv">EAGLE elektronik-CAD</comment>
+        <generic-icon name="application-x-eagle-schematic"/>
+        <alias type="application/x-eagle-schematic"/>
+        <alias type="application/x-eeschema-schematic"/>
+        <alias type="application/x-geda-schematic"/>
+        <alias type="application/x-kicad-schematic"/>
+        <alias type="application/x-lepton-schematic"/>
+        <glob pattern="*.sch"/>
+        <glob pattern="*.kicad_sch"/>
+        <glob pattern="*.SchDoc"/>
+        <glob pattern="*.dsn"/>
+    </mime-type>
+</mime-info>
