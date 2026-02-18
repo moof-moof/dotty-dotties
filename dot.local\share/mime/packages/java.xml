@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="text/x-java">
+		<comment>Java source code</comment>
+		<comment xml:lang="sv">Java-källkod</comment>
+		<sub-class-of type="text/x-csrc"/>
+		<sub-class-of type="text/x-java-source"/>
+		<generic-icon name="text-x-java"/>
+		<glob pattern="*.java"/>
+	</mime-type>
+	<mime-type type="application/x-java">
+		<comment>Java class</comment>
+		<comment xml:lang="sv">Java-bytekod</comment>
+		<generic-icon name="application-java"/>
+		<alias type="application/java"/>
+		<alias type="application/java-byte-code"/>
+		<alias type="application/x-java-class"/>
+		<alias type="application/x-class-file"/>
+		<alias type="application/java-vm"/>
+		<alias type="application/x-java-vm"/>
+		<glob pattern="*.class"/>
+		<magic>
+			<match type="big32" value="0xcafebabe" offset="0"/>
+		</magic>
+	</mime-type>
+	<mime-type type="application/java-archive">
+		<comment>Java archive</comment>
+		<comment xml:lang="sv">Java-arkiv</comment>
+		<sub-class-of type="application/zip"/>
+		<generic-icon name="application-x-jar"/>
+		<alias type="application/x-jar"/>
+		<alias type="application/x-java-archive"/>
+		<glob pattern="*.jar"/>
+	</mime-type>
+</mime-info>
