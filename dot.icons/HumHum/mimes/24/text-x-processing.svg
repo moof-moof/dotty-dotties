@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg3609"
+   sodipodi:docname="text-x-processing-rt.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   width="24"
+   height="24"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3613" />
+  <sodipodi:namedview
+     id="namedview3611"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="13.921165"
+     inkscape:cy="14.760854"
+     inkscape:window-width="1835"
+     inkscape:window-height="1317"
+     inkscape:window-x="584"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3609">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9196"
+       originx="0"
+       originy="0" />
+  </sodipodi:namedview>
+  <path
+     d="m 20.919501,0.03200031 c 0,12.76759869 -9.9e-4,12.80293769 0.002,23.88273869 l -17.8087522,0.0089 c -0.00436,-2.13921 6.05e-5,-0.004 6.05e-5,-17.1816802 L 9.7885678,0.03288885 c 10.7215902,0 0.066082,-8.4576e-4 11.1309822,-8.4576e-4 z"
+     style="display:inline;fill:#efefef;fill-opacity:1;stroke:none;stroke-width:0.111657;stroke-dasharray:none;stroke-opacity:1"
+     id="path3599"
+     sodipodi:nodetypes="ccccccc"
+     inkscape:label="Bakgrund" />
+  <g
+     id="g6696"
+     transform="matrix(0.31610234,0,0,0.31770355,4.9278233,-16.968624)"
+     style="display:inline"
+     inkscape:label="Loggan">
+    <path
+       d="m 24.693823,93.264714 c 16.901409,0 16.901409,-22.535212 0,-22.535212"
+       stroke="#0468ff"
+       stroke-width="8.4507px"
+       fill="none"
+       id="path6169" />
+    <path
+       d="M 24.693823,76.363305 7.7924145,98.898517"
+       stroke="#1f34ab"
+       stroke-width="8.4507px"
+       fill="none"
+       id="path6171" />
+    <path
+       d="M 7.7924145,81.997108 13.426217,93.264714"
+       stroke="#85aeff"
+       stroke-width="8.4507px"
+       fill="none"
+       id="path6173" />
+  </g>
+  <path
+     d="M 8.3619295,6.6733843 3.1644406,11.902593 V 6.6733843 Z"
+     style="fill:#000000;fill-opacity:0.196;stroke-width:0.372188"
+     id="path3601"
+     inkscape:label="Skuggan" />
+  <path
+     d="M 9.6361585,0.22020592 3.2198261,6.6215741 h 6.3637124 c 0.054846,0 0.051896,8.56e-5 0.051896,-0.053502 z"
+     style="fill:#ffffff;fill-opacity:0.964505;stroke:#000000;stroke-width:0.183089;stroke-dasharray:none;stroke-opacity:1"
+     id="path3603"
+     inkscape:label="Hundöra"
+     sodipodi:nodetypes="ccscc" />
+  <path
+     d="m 20.861551,20.829192 c 0.0256,3.151587 2.79e-4,0.05766 -0.0068,2.986656 H 3.1473842 c -0.00436,-0.542564 6.05e-5,-1.555205 6.05e-5,-2.987182 17.5300833,0 0.4898815,4.97e-4 17.7141063,4.97e-4 z"
+     style="fill:#ffc00f;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-opacity:0"
+     id="path403"
+     sodipodi:nodetypes="ccccc"
+     inkscape:label="Botten-fält" />
+  <path
+     d="m 20.861551,17.845694 c 0.0256,3.152352 2.79e-4,0.05766 -0.0068,2.987381 H 3.1473842 c -0.00436,-0.542696 6.05e-5,-1.555583 6.05e-5,-2.987906 17.5300833,0 0.4898815,4.97e-4 17.7141063,4.97e-4 z"
+     style="display:inline;fill:#c0fff8;fill-opacity:1;stroke:#000000;stroke-width:0.0744376;stroke-dasharray:none;stroke-opacity:1"
+     id="path1792"
+     sodipodi:nodetypes="ccccc"
+     inkscape:label="Botten-fält" />
+  <path
+     d="m 20.882579,20.758828 c 0.02301,3.114492 2.35e-4,0.05693 -0.0093,2.946632 L 3.1268149,20.921373 c -0.00386,-0.536159 0.00138,-1.534903 0.00248,-2.948197 17.5687721,2.7562 0.4909637,0.07754 17.7532001,2.785649 z"
+     style="display:inline;fill:#9b3fad;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-dasharray:none;stroke-opacity:0"
+     id="path1790"
+     sodipodi:nodetypes="ccccc"
+     inkscape:label="Botten-fält" />
+  <path
+     id="rect1032"
+     style="display:inline;opacity:1;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.285841;stroke-dasharray:none;stop-color:#000000;stop-opacity:1"
+     inkscape:label="rect1032 Outline"
+     d="M 20.862671,0.13568857 9.715033,0.13663383 3.1544113,6.6781923 V 23.860365 l 17.7082597,-0.0054 z"
+     sodipodi:nodetypes="cccccc" />
+</svg>
