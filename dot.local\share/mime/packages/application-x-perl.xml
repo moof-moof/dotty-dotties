@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+    <mime-type type="application/x-perl">
+        <comment>Perl script</comment>
+        <comment xml:lang="sv">Perlskript</comment>
+        <sub-class-of type="application/x-executable"/>
+        <sub-class-of type="text/plain"/>
+        <generic-icon name="text-x-perl"/>
+        <alias type="text/x-perl"/>
+        <magic>
+          <match type="string" value="eval \&quot;exec /usr/local/bin/perl" offset="0"/>
+          <match type="string" value="/bin/perl" offset="2:16"/>
+          <match type="string" value="/bin/env perl" offset="2:16"/>
+          <match type="string" value="use Test::" offset="0:256"/>
+        </magic>
+        <magic priority="40">
+          <match type="string" value="use strict" offset="0:256"/>
+          <match type="string" value="use warnings" offset="0:256"/>
+          <match type="string" value="use diagnostics" offset="0:256"/>
+          <match type="string" value="\n=pod" offset="0:256"/>
+          <match type="string" value="\n=head1 NAME" offset="0:256"/>
+          <match type="string" value="\n=head1 DESCRIPTION" offset="0:256"/>
+          <match type="string" value="BEGIN {" offset="0:256"/>
+        </magic>
+        <!-- CPAN-style Perl build script -->
+        <glob pattern="*.perl"/> <!-- documentation -->
+        <glob pattern="*.pl"/>
+        <glob pattern="*.PL"/>
+        <glob pattern="*.pm"/>
+        <glob pattern="*.cgi"/>   
+                <!-- module -->
+                
+        <glob pattern="*.al"/>
+                <!-- autoloader -->
+    
+        <glob pattern="*.pod"/>
+                <!-- documentation -->
+    
+        <glob pattern="*.t" weight="10"/>
+                <!-- tests -->
+    
+        
+        <!-- CPAN-style Perl test script -->
+    </mime-type>
+</mime-info>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+	<mime-type type="application/x-desktop">
+		<comment>Desktop entry</comment>
+		<comment xml:lang="sv">Skrivbordspost</comment>
+		<sub-class-of type="text/plain"/>
+		<generic-icon name="application-x-desktop"/>
+		<glob pattern="*.desktop"/>
+		<glob pattern="*.mate-panel-launcher"/>
+		<alias type="application/x-gnome-app-info"/>
+	</mime-type>
+</mime-info>

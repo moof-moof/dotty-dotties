@@ -1,6 +1,7 @@
 application/cache-octet-stream
 application/gml+xml
 application/gpx+xml
+application/java-archive
 application/sparql-query
 application/sparql-results+xml
 application/sql
@@ -16,12 +17,14 @@ application/x-extension-qm
 application/x-extension-xsession-errors
 application/x-gdbm
 application/x-ipynb+json
+application/x-java
 application/x-lmdb
 application/x-perl
 application/x-php
 application/x-python-bytecode
 application/x-raku
 application/x-sqlite2
+application/x-theme
 application/xhtml+xml
 application/xml
 application/yaml
@@ -45,8 +48,12 @@ text/x-copying
 text/x-credits
 text/x-csrc
 text/x-forth
+text/x-java
 text/x-log
 text/x-nfo
+text/x-processing
+text/x-processing.pdex
+text/x-processing.pdez
 text/x-python
 text/x-python3
 text/x-readme

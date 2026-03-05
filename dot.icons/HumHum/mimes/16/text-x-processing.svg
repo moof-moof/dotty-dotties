@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="32"
-     inkscape:cx="6.53125"
-     inkscape:cy="10.03125"
+     inkscape:zoom="90.509668"
+     inkscape:cx="3.9553786"
+     inkscape:cy="4.0437669"
      inkscape:window-width="1835"
      inkscape:window-height="1317"
-     inkscape:window-x="615"
-     inkscape:window-y="113"
+     inkscape:window-x="-17"
+     inkscape:window-y="96"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3609">
     <inkscape:grid
@@ -61,12 +61,6 @@
        stroke-width="8.4507px"
        fill="none"
        id="path6171" />
-    <path
-       d="M 7.7924145,81.997108 13.426217,93.264714"
-       stroke="#85aeff"
-       stroke-width="8.4507px"
-       fill="none"
-       id="path6173" />
   </g>
   <path
      d="M 5.5795281,4.459921 2.1214823,7.9390942 V 4.459921 Z"
@@ -74,8 +68,8 @@
      id="path3601"
      inkscape:label="Skuggan" />
   <path
-     d="M 6.4273112,0.16639694 2.1583322,4.4254502 H 6.392301 c 0.036487,0 0.034531,5.66e-5 0.034531,-0.0356 z"
-     style="fill:#ffffff;fill-opacity:0.964505;stroke:#000000;stroke-width:0.121814;stroke-dasharray:none;stroke-opacity:1"
+     d="M 6.4604567,0.13325132 2.1914777,4.3923047 h 4.2339688 c 0.036487,0 0.034531,5.66e-5 0.034531,-0.0356 z"
+     style="fill:#ffffff;fill-opacity:0.964505;stroke:#000000;stroke-width:0.222;stroke-dasharray:none;stroke-opacity:1"
      id="path3603"
      inkscape:label="Hundöra"
      sodipodi:nodetypes="ccscc" />

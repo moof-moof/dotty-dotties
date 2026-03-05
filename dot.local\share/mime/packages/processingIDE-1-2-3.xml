@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+	<mime-type type="text/x-processing">
+		<comment>Processing source code</comment>
+		<comment xml:lang="sv">Processing-källkod</comment>
+		<sub-class-of type="text/x-java"/>
+		<generic-icon name="text-x-processing"/>
+		<magic>
+			<match type="string" value="class" offset="1024"/>
+			<match type="string" value="processing" offset="1024"/>
+			<match type="string" value="java" offset="1024"/>
+			<match type="string" value="void draw" offset="1024"/>
+		</magic>
+		<glob pattern="*.pde"/>
+		<glob pattern="*.pyde"/>
+	</mime-type>
+	<mime-type type="text/x-processing.pdex">
+		<comment>Processing Contribution Bundle</comment>
+		<sub-class-of type="application/zip"/>
+		<generic-icon name="text-x-processing"/>
+		<glob pattern="*.pdex"/>
+	</mime-type>
+	<mime-type type="text/x-processing.pdez">
+		<comment>Processing Sketch Bundle</comment>
+		<sub-class-of type="application/zip"/>
+		<generic-icon name="text-x-processing"/>
+		<glob pattern="*.pdez"/>
+	</mime-type>
+</mime-info>

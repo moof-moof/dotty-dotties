@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info"> 
+    <mime-type type="application/x-raku">
+        <comment>Raku script</comment>
+        <comment xml:lang="sv">Rakuskript</comment>
+        <sub-class-of type="application/x-executable"/>
+        <sub-class-of type="text/plain"/>
+        <generic-icon name="application-x-raku"/>
+        <alias type="application/x-perl6"/>
+        <alias type="text/x-perl6"/>
+        <alias type="text/x-raku"/>
+        <magic>
+            <match type="string" value="eval \&quot;exec /usr/local/bin/raku" offset="0"/>
+            <match type="string" value="/bin/raku" offset="2:16"/>
+            <match type="string" value="/bin/env raku" offset="2:16"/>
+            <match type="string" value="use v6;" offset="0:16"/>
+            <match type="string" value="use Test::" offset="0:256"/>
+        </magic>
+        <glob pattern="*.raku"/>
+        <glob pattern="*.p6"/>
+        <glob pattern="*.pl6"/>
+        <glob pattern="*.p6l"/>
+        <glob pattern="*.6pl"/>
+<!-- CPAN-style Raku build script -->
+        <glob pattern="*.rakumod"/>
+        <glob pattern="*.pm6"/>
+        <glob pattern="*.p6m"/>
+        <glob pattern="*.6pm"/>
+                <!-- module -->
+        <glob pattern="*.al"/>
+                <!-- autoloader -->
+        <glob pattern="*.rakudoc"/>
+        <glob pattern="*.pod6"/>
+                <!-- documentation -->
+        <glob pattern="*.rakutest"/>
+                <!-- tests -->
+<!-- CPAN-style Raku test script -->
+    </mime-type>
+</mime-info>

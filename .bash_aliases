@@ -28,7 +28,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
-    
+
     alias ls='ls --color=auto'
     alias dir='ls -AGhlNpv --group-directories-first'
     alias ddd='dir --time-style=iso --classify=auto'
@@ -57,7 +57,7 @@ fi
 	alias tree='tree -aC'       # Caution! Runaway output if called from high hierarchy levels
 	alias ..="cd .."            # go up
 	alias ...="cd .. ; cd .."   # go up-up
-	
+
 	### ---------------------------------------------------------------------------------
 	### alias --="cd -"           # "--" = return to OLDPWD (if set)
 	### ---------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ fi
 # Check if our DNS is still uptodate
 # **********************************
 	alias testip='cd ~/bin/sh/; ./ip-test_notify-send.sh'
-	
+
 # Check current status of xneb.org
 # ********************************
 	alias xneb='curl --head --show-error "http://xneb.org"'
@@ -105,7 +105,7 @@ fi
 # *****************************************************
 #??	alias tempo="inotifywait -m ~ --format '%w%f %e' -e create"
 
-# Add an "alert" alias for long running commands.  
+# Add an "alert" alias for long running commands.
 # Use like so:  sleep 10; alert
 # **********************************************
 	alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -124,13 +124,22 @@ fi
 
 # Update mime, desktop and icon databases pronto
 # **********************************************
-	alias upupup='update-mime-database ~/.local/share/mime/ && update-desktop-database ~/.local/share/ && gtk-update-icon-cache -f ~/.local/share/icons/HumHum/ && echo "As was the mime and desktop databases, evidently!"' 
+	alias upupup='update-mime-database ~/.local/share/mime/ && update-desktop-database ~/.local/share/ && gtk-update-icon-cache -f ~/.local/share/icons/HumHum/ && echo "As was the mime and desktop databases, evidently!"'
+
+# Create an array of folders to host icon-set sizes 16, 24, 32, 48, 64.
+# *********************************************************************
+	alias mimeset="mkdir -p mime-set_/{16,24,32,48,64}"
 
 # Add zenity alias to make the annoying terminal error message disappear forever:
 # "Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged."
 # *******************************************************************************
 	alias zenity="zenity 2>/dev/null"
 
+# Party-Parrot in the terminal! (ASCII or colorised)
+# **************************************************
+	alias papa='curl ascii.live/parrot'
+	alias pcpc='curl parrot.live'		# often very slow to load
+	
 
 # ---------------------------------------------------------------------------------------------------
 #            === LSD ===		  (cp ~/.config/lsd/config.yaml for "permanent" lsd settings)
